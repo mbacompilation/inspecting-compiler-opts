@@ -1,0 +1,1000 @@
+1;~(~param_1 - param_2)
+2;~(param_1 ^ 0xffffffff) + param_2
+3;param_1 + param_2
+4;param_1 + param_2
+5;~-((param_1 | param_2) - ~(param_1 & param_2))
+6;~-param_1 - param_1 & param_1 + param_2
+7;~(~(param_1 & param_2 | param_1) - param_2)
+8;param_1 + param_2
+9;param_2 + param_1
+10;(~param_1 ^ ~param_1 + param_1) + param_2
+11;~(param_1 + param_2 ^ ~param_2 ^ param_2)
+12;~(~(param_1 + param_2) & ~param_2 + param_2)
+13;~(param_1 | param_2) & param_1 ^ param_1 + param_2
+14;-(-param_2 - param_1)
+15;param_1 + param_2
+16;(~(param_1 | param_2) & param_1) + param_1 + param_2
+17;~(~(param_1 - param_2) + param_2 * -2)
+18;(~-param_1 - param_1 & param_1) + param_2
+19;param_1 + param_2
+20;param_1 + param_2
+21;param_2 + param_1
+22;~-(param_2 - ~param_1)
+23;~((~param_2 | param_1) & ~param_2) + param_1
+24;~param_1 ^ ~param_2 - param_1 ^ param_1
+25;param_1 + param_2
+26;~-(param_1 - ~param_2)
+27;~((~param_1 & ~(param_1 & param_2)) - param_2)
+28;param_1 + param_2
+29;-(-param_2 - param_1)
+30;-(-param_2 - param_1)
+31;(~param_2 + param_1 + param_2) - ~param_2
+32;(~(~param_2 & param_1) & param_2) + param_1
+33;~(~param_1 - param_2)
+34;param_2 + param_1
+35;(-~param_2 & param_2 | param_2) + param_1
+36;~((~param_2 + param_2 ^ param_1) - param_2)
+37;(~param_2 & param_1 | param_1) + param_2
+38;param_1 - ~(param_2 - 1)
+39;~param_1 - ((~param_1 - param_2) - param_1)
+40;~(~param_1 ^ param_1 + param_2) ^ param_1
+41;~param_1 + (param_1 * 2 - ~param_2)
+42;~-param_2 - ~param_1
+43;-(-param_2 - param_1)
+44;-(-param_2 - param_1)
+45;param_2 + param_1
+46;param_2 + param_1
+47;~param_1 + param_1 & param_1 + param_2
+48;(~param_1 + param_1 * 2) - ~param_2
+49;param_1 * 2 - ~(~param_1 + param_2)
+50;param_1 + param_2
+51;param_1 + param_2
+52;(param_1 - (~(param_1 | param_2) & param_2)) + param_2
+53;~(0xffffffff - param_1) + param_2
+54;param_1 + param_2 & (~(param_1 & param_2) | param_2)
+55;param_1 + param_2
+56;~(param_1 - param_2) - ~(param_1 * 2)
+57;(~param_1 ^ ~param_2 ^ param_1) + param_1
+58;~(~param_1 - param_2) & param_1 + param_2
+59;~(0xffffffff - (param_1 + param_2))
+60;(~(~param_1 + param_1) | param_2) + param_1
+61;(param_1 + param_2) - ~(~(param_1 & param_2) | param_1)
+62;(~(~param_1 & -param_2) & param_1) + param_2
+63;(~param_1 ^ ~param_2 ^ param_2) + param_2
+64;~(~param_1 - param_2)
+65;param_2 + param_1
+66;~(~param_1 - param_2)
+67;(param_1 - (param_1 & param_2) | param_1) + param_2
+68;(param_2 - (~(param_1 | param_2) & param_1)) + param_1
+69;~(~param_1 - param_2)
+70;(param_1 - ~(param_2 * 2)) + ~param_2
+71;~param_1 - param_2 ^ 0xffffffff
+72;~(param_1 + param_2) ^ 0xffffffff
+73;~(~((-param_1 | param_2) & param_2) - param_1)
+74;~(~(~param_2 & param_1 | param_1) - param_2)
+75;~param_2 + (param_1 - ~(param_2 * 2))
+76;~(~param_1 - param_2 ^ param_2) ^ param_2
+77;~(param_1 + param_2) ^ 0xffffffff
+78;param_1 + param_2 ^ ~(~param_2 + param_2)
+79;~param_1 + (param_1 * 2 - ~param_2)
+80;~((param_1 ^ 0xffffffff) - param_2)
+81;~(~param_1 ^ param_1 ^ param_2) + param_1
+82;param_1 + param_2
+83;~(~param_1 - param_2)
+84;~(~param_2 - param_1)
+85;-(-param_2 - param_1)
+86;param_1 + param_2
+87;~(~param_2 - param_1)
+88;~(~param_1 - param_2)
+89;param_1 + param_2
+90;param_1 + param_2
+91;~(0xffffffff - (param_1 + param_2))
+92;param_1 + param_2 + ~(~(param_1 & param_2) | param_2)
+93;param_1 - (~param_2 + 1)
+94;param_1 + param_2
+95;~(~param_2 - param_1) & param_1 + param_2
+96;(~(~param_1 & param_2) & param_1) + param_2
+97;~(~param_2 - param_1)
+98;param_1 + param_2
+99;(param_1 * 2 - ~param_2) + ~param_1
+100;param_1 + param_2
+101;~(~param_1 - param_2)
+102;((param_1 | param_2) & param_1 | param_1) + param_2
+103;(~(~param_1 | param_2) | param_1) + param_2
+104;(param_1 & param_2 | param_1 | param_1) + param_2
+105;((param_1 - param_2 | param_1) & param_1) + param_2
+106;~(~(-param_2 & param_1 | param_1) - param_2)
+107;~(~(param_1 * 2 + param_2) + param_1)
+108;((-param_2 | param_1) & param_1) + param_2
+109;~(~param_2 - param_1)
+110;param_1 + param_2
+111;param_2 + param_1
+112;~(~param_1 + param_1) + param_1 + param_2
+113;(~param_2 + param_1 + param_2) - ~param_2
+114;param_1 - (~(~param_2 + param_2) - param_2)
+115;(~(~(param_1 & param_2) | param_1) | param_2) + param_1
+116;~(0xffffffff - param_2) + param_1
+117;~(param_1 ^ 0xffffffff) + param_2
+118;~(~param_2 ^ param_1 ^ param_2) + param_2
+119;~-(param_1 - ~(param_1 & param_2 | param_2))
+120;param_1 + param_2
+121;(param_1 & param_2 | param_2) + param_1
+122;param_2 + param_1
+123;(~param_1 ^ ~(param_1 ^ param_2)) + param_1
+124;~(~param_1 - param_2)
+125;((~(param_1 & param_2) | param_1) & param_2) + param_1
+126;(~(~(param_1 | param_2) | param_2) | param_1) + param_2
+127;(~param_1 + param_1 & param_2) + param_1
+128;(~param_1 + param_2 + param_1) - ~param_1
+129;~(param_2 ^ 0xffffffff) + param_1
+130;(param_2 - ~param_1) + ~param_1 + param_1
+131;-(-param_2 - param_1)
+132;param_1 + param_2
+133;~-(param_1 - ~param_2)
+134;param_2 + param_1
+135;~(~param_1 - ((param_1 | param_2) & param_2))
+136;param_2 + param_1
+137;param_1 + param_2
+138;~(~param_2 - param_2) + (param_1 - param_2)
+139;(~(~param_2 & -param_2) & param_2) + param_1
+140;~((param_1 ^ 0xffffffff) - param_2)
+141;((param_1 ^ param_2 | param_1) & param_2) + param_1
+142;-(-param_2 - param_1)
+143;~(~param_1 - param_2)
+144;param_2 + param_1
+145;param_1 + param_2
+146;param_2 + param_1
+147;(-param_1 & param_2 | param_2) + param_1
+148;param_1 + param_2
+149;-(-param_2 - param_1)
+150;~(~param_1 - param_2)
+151;((~-param_2 | param_1) & param_1) + param_2
+152;~(param_1 + param_2) ^ ~param_2 ^ param_2
+153;((param_1 | param_2) & param_1 & param_1) + param_2
+154;param_2 + param_1
+155;(~param_2 ^ 0xffffffff) + param_1
+156;-(-param_2 - param_1)
+157;(~param_1 + param_2) - ~(param_1 * 2)
+158;~(0xffffffff - param_1) + param_2
+159;-(-param_2 - param_1)
+160;(~param_1 + param_2 + param_1) - ~param_1
+161;(~param_2 ^ param_1 ^ ~param_2) + param_2
+162;param_1 + param_2
+163;~(~param_1 + param_2) + param_2 * 2
+164;~param_1 - param_2 ^ ~param_2 + param_2
+165;~(~param_1 - param_2)
+166;((param_1 | param_2) - param_1 | param_2) + param_1
+167;~(~(param_1 & param_2) | param_2) + param_1 + param_2
+168;(~(~param_2 | param_1) | param_2) + param_1
+169;~(0xffffffff - param_2) + param_1
+170;~(~param_1 & ~(~param_2 & param_1)) + param_2
+171;(param_1 & param_2 ^ param_1 | param_1) + param_2
+172;param_2 + param_1
+173;~-param_1 - ~(param_1 & param_2 | param_2)
+174;param_2 + param_1
+175;~(param_1 + param_2) ^ 0xffffffff
+176;(param_2 - ~param_1) + -1
+177;param_1 + param_2
+178;param_1 + param_2
+179;~param_1 + (param_1 - (~param_1 - param_2))
+180;((param_1 | param_2) & param_1) + param_2
+181;~(~(param_1 & param_2 | param_2) - param_1)
+182;param_2 + param_1
+183;param_1 + param_2
+184;~(~param_1 - param_2 & ~param_2 + param_2)
+185;(-param_1 & param_2 | param_2) + param_1
+186;param_2 + param_1
+187;-1 - ~(param_1 + param_2)
+188;param_1 - ((~param_2 - param_2) - ~param_2)
+189;~param_1 - ~(param_1 * 2 + param_2)
+190;param_1 + param_2
+191;~(~param_1 - param_2)
+192;~(~param_2 - param_1)
+193;(~(param_1 | param_2) & param_2 | param_1) + param_2
+194;~param_2 - param_1 ^ 0xffffffff
+195;~(~param_1 - param_2)
+196;~(~param_2 - param_1)
+197;(param_1 - ~param_2) + -1
+198;(param_1 & param_2 & param_1) + (param_1 | param_2)
+199;((-param_2 | param_1) & param_1) + param_2
+200;(~param_1 + param_1 & param_2) + param_1
+201;param_1 + param_2
+202;~(~param_1 + param_2 * -2) - param_2
+203;~(~param_1 - param_2)
+204;((~param_2 | param_1) & param_1) + param_2
+205;(param_1 & param_2 | param_2) + param_1
+206;param_2 + param_1
+207;param_2 + param_1
+208;param_1 - ((~(param_1 | param_2) & param_2) - param_2)
+209;~(~(param_1 & param_2 | param_1) - param_2)
+210;param_1 - ~(~(param_1 - param_2) + param_1)
+211;~-(param_2 - ~param_1)
+212;~(~param_1 - param_2)
+213;((param_1 | param_2) & param_1) + param_2
+214;param_1 - ~(param_2 - 1)
+215;(~(param_1 | param_2) + param_2 & param_2) + param_1
+216;param_1 * 2 - (~param_2 - ~param_1)
+217;~((param_1 - param_2) + ~(param_1 * 2))
+218;param_2 + param_1
+219;~(~(~param_1 + param_1 & param_2) - param_1)
+220;param_1 - ~(param_2 - 1)
+221;param_2 + param_1
+222;~(~param_1 & ~(-param_2 & param_1)) + param_2
+223;-(-param_2 - param_1)
+224;(~(~param_1 + param_1) ^ param_2) + param_1
+225;param_1 + param_2
+226;param_2 + param_1
+227;param_1 + param_2
+228;~(param_1 + param_2 ^ ~param_2) ^ param_2
+229;((param_1 & param_2 | param_2) & param_2) + param_1
+230;~(~param_1 - param_2)
+231;-(-param_2 - param_1)
+232;param_1 - (~param_1 - (~param_1 + param_2))
+233;(param_1 - (~param_1 - param_2)) + ~param_1
+234;(~(~(param_1 | param_2) | param_1) | param_2) + param_1
+235;~(~param_2 - param_1)
+236;param_1 + param_2
+237;param_1 + param_2
+238;-(-param_1 - param_2)
+239;~(~param_1 - param_2)
+240;~(~(param_1 - param_2) - param_2) + param_2
+241;~(~param_1 - param_2)
+242;(param_1 * 2 & param_2 | param_2) + param_1
+243;(~param_2 + param_1) - (~param_2 - param_2)
+244;(-param_2 & param_1 | param_1) + param_2
+245;(param_1 + param_2) - (~(param_1 | param_2) & param_1)
+246;param_1 + param_2
+247;~((-1 - param_1) - param_2)
+248;((~(param_1 | param_2) | param_2) & param_2) + param_1
+249;~param_1 - (~(param_1 * 2) - param_2)
+250;-(-param_2 - param_1)
+251;(~param_2 & param_1 | param_1) + param_2
+252;~(~param_2 + param_1) + param_1 * 2
+253;-(-param_2 - param_1)
+254;param_1 + param_2
+255;~(param_1 - (param_2 - ~(param_1 * 2)))
+256;~param_2 - param_1 ^ 0xffffffff
+257;param_1 + param_2
+258;param_2 + param_1
+259;~(~(~(~param_1 | param_2) | param_1) - param_2)
+260;param_1 + param_2
+261;((~param_2 | param_1) & param_1) + param_2
+262;param_1 + param_2
+263;~(~param_1 - param_2)
+264;~(~param_1 - param_2)
+265;(~((param_1 ^ param_2) & param_2) & param_1) + param_2
+266;param_1 - ~(param_2 - 1)
+267;~(0xffffffff - param_2) + param_1
+268;((-~param_1 | param_2) & param_2) + param_1
+269;param_2 + param_1
+270;param_1 + param_2
+271;~(~param_1 ^ param_1 + param_2 ^ param_1)
+272;~(param_1 ^ 0xffffffff) + param_2
+273;(param_1 - ~param_1) + ~param_1 + param_2
+274;(param_2 - (~(param_1 | param_2) & param_2)) + param_1
+275;~(0xffffffff - param_1) + param_2
+276;(~(param_1 | param_2) & param_1) + param_2 + param_1
+277;param_2 + param_1
+278;~(~(param_1 ^ param_2) ^ param_1) + param_1
+279;param_2 + param_1
+280;~(~param_2 - param_1)
+281;(~(~param_2 + param_2) | param_1) + param_2
+282;~(0xffffffff - param_2) + param_1
+283;(param_2 - ~param_1) + -1
+284;~(~(-param_1 & param_1 | param_1) - param_2)
+285;param_1 + param_2
+286;param_1 - (~param_1 + param_1 & -param_2)
+287;(param_2 - ~param_1) + -1
+288;~(~param_2 - param_1)
+289;-1 - (~param_1 - param_2)
+290;(param_1 - ~param_2) + -1
+291;(~(~param_2 - param_2) + param_1) - param_2
+292;param_2 + param_1
+293;~(0xffffffff - (param_1 + param_2))
+294;param_1 + param_2
+295;param_1 + param_2
+296;~param_1 + ((param_1 + param_2) - ~param_1)
+297;~param_1 ^ ~param_1 - param_2 ^ param_1
+298;(-~param_1 & param_1 | param_1) + param_2
+299;param_1 + param_2
+300;param_2 + param_1
+301;param_1 + param_2
+302;param_1 + param_2
+303;(~(param_1 ^ param_2) ^ ~param_2) + param_2
+304;((param_1 | param_2) & param_2) + param_1
+305;(param_2 - ~(~param_2 + param_2)) + param_1
+306;param_2 + param_1
+307;param_2 + param_1
+308;(-param_1 & param_2 | param_2) + param_1
+309;param_1 + param_2
+310;~(~param_1 + param_1 & ~param_2) + param_1
+311;~(param_1 - (param_2 - ~param_1)) + param_1
+312;-1 - (~param_2 - param_1)
+313;(param_2 - (~param_1 - param_1)) + ~param_1
+314;param_1 + param_2
+315;param_2 + param_1
+316;((param_2 * 2 | param_1) & param_1) + param_2
+317;~(param_1 + param_2) ^ ~param_2 + param_2
+318;param_2 + param_1
+319;(~(~param_2 + param_2) ^ param_2) + param_1
+320;~(~param_1 - param_2)
+321;param_1 + param_2
+322;~((-1 - param_2) - param_1)
+323;param_1 - (~param_2 - (~param_2 + param_2))
+324;~(~param_1 - param_2)
+325;~(~param_2 + param_2 ^ param_1) + param_2
+326;param_1 + param_2
+327;param_1 + param_2
+328;param_1 + param_2
+329;~-(param_1 & param_2) - ~(param_1 | param_2)
+330;param_2 + param_1
+331;((param_1 | param_2 | param_1) & param_1) + param_2
+332;~(~param_2 - param_1)
+333;(param_1 + param_2) - ~(~(param_1 & param_2) | param_2)
+334;(param_1 + -1) - ~param_2
+335;(-(-param_1 & param_1) & param_1) + param_2
+336;param_1 + param_2 & ~(~(param_1 | param_2) & param_2)
+337;((param_1 ^ param_2 | param_2) & param_2) + param_1
+338;(-param_1 ^ -param_1 ^ param_2) + param_1
+339;param_1 + param_2
+340;param_2 + param_1
+341;~-~(~-~param_1 - param_2)
+342;(~(~(param_1 & param_2) | param_2) | param_2) + param_1
+343;~(~(param_1 + param_2) ^ param_1) ^ param_1
+344;param_1 + param_2
+345;param_2 + param_1
+346;((~-param_1 | param_1) & param_1) + param_2
+347;param_1 + param_2
+348;~((~param_1 ^ param_2 ^ param_1) - param_1)
+349;~((-1 - param_2) - param_1)
+350;(param_1 + param_2 | param_1) & param_1 + param_2
+351;param_1 + param_2
+352;~(~(param_2 * 2) + param_2) + param_1
+353;param_2 + param_1
+354;~(~param_1 & ~param_1 + param_1) + param_2
+355;(~(param_1 & param_2) & param_2 | param_2) + param_1
+356;param_1 + param_2
+357;param_2 + param_1
+358;~(~param_2 & param_1 | ~param_2) + param_1
+359;~(~(param_1 + param_2) + param_2) + param_2
+360;-(-param_2 - param_1)
+361;param_1 + param_2
+362;param_1 + param_2
+363;param_1 + param_2
+364;~param_1 + (param_2 - ~param_1) + param_1
+365;(param_2 - param_1 & param_2 | param_2) + param_1
+366;param_1 + param_2
+367;~(~(~(~param_1 & param_2) & param_1) - param_2)
+368;param_1 * 2 - ~(~param_1 + param_2)
+369;(~param_2 ^ 0xffffffff) + param_1
+370;(~param_1 + param_2) - (~param_1 - param_1)
+371;~-param_2 - ~param_1
+372;((-~param_2 | param_1) & param_1) + param_2
+373;~(~(param_1 | param_2) | ~param_2) + param_1
+374;param_2 + param_1
+375;param_2 + param_1
+376;param_2 + param_1
+377;(param_1 * 2 - ~param_2) + ~param_1
+378;~(param_1 ^ 0xffffffff) + param_2
+379;param_1 + param_2
+380;param_1 + param_2
+381;(~(~param_1 ^ param_2) ^ param_1) + param_1
+382;(param_1 & param_2) + (param_1 | param_2)
+383;~param_1 ^ ~(param_1 + param_2 ^ param_1)
+384;param_1 + param_2
+385;param_1 + param_2
+386;param_2 + param_1
+387;~(param_1 + param_2) ^ 0xffffffff
+388;(param_1 & param_2 | param_1) + param_2
+389;~(~((~param_1 | param_2) & param_2) - param_1)
+390;(~(param_1 | param_2) & param_2 ^ param_1) + param_2
+391;~(~param_1 & (~param_1 | param_2)) + param_2
+392;~(~(~param_1 & param_2) & ~param_2) + param_1
+393;(-param_1 & param_1 | param_1) + param_2
+394;(~param_1 + param_1 + param_2) - ~param_1
+395;param_1 + param_2 | ~(~param_2 + param_2)
+396;~(~param_1 - param_2)
+397;param_1 + param_2
+398;((-~param_1 | param_1) & param_1) + param_2
+399;~(~(param_1 & param_2) - (param_1 | param_2))
+400;param_2 + param_1
+401;param_1 + param_2
+402;~(~param_1 + param_2) + param_2 * 2
+403;~(~param_1 - param_2)
+404;param_2 + param_1
+405;~(~(param_2 * 2 + param_1) + param_2)
+406;param_1 + param_2
+407;~(~param_1 - param_2)
+408;(~param_1 ^ 0xffffffff) + param_2
+409;~param_1 - ~(param_1 * 2 + param_2)
+410;~(~param_1 & ~(param_1 & param_2)) + param_2
+411;param_1 + param_2
+412;~((param_2 ^ 0xffffffff) - param_1)
+413;param_2 + param_1
+414;-(-param_2 - ((param_1 | param_2) & param_1))
+415;param_1 + param_2
+416;~(~param_1 ^ param_2 ^ param_1) + param_1
+417;((param_1 | param_2) - param_2 | param_1) + param_2
+418;~(~(~(~param_2 & param_1) & param_2) - param_1)
+419;-(-param_2 - param_1)
+420;(param_2 - (param_1 & param_2) | param_2) + param_1
+421;((~(param_1 & param_2) | param_1) & param_1) + param_2
+422;param_1 + param_2
+423;~param_1 ^ ~(param_1 + param_2) ^ param_1
+424;(param_1 + param_2) - ~(~param_2 + param_2)
+425;~(~param_1 - param_2)
+426;(~param_1 ^ 0xffffffff) + param_2
+427;~(~param_1 - param_1) - (param_1 - param_2)
+428;(~(~(param_1 & param_2) | param_1) ^ param_1) + param_2
+429;(~(~(param_1 & param_2) | param_1) ^ param_2) + param_1
+430;param_1 + param_2
+431;-(-param_1 - param_2)
+432;(param_2 - ~param_1) + -1
+433;~(~param_1 - param_2)
+434;param_1 + param_2
+435;(~param_1 & param_2 | param_2) + param_1
+436;(-param_2 ^ -param_2 ^ param_2) + param_1
+437;((param_2 - param_1 | param_2) & param_2) + param_1
+438;(~(~param_1 ^ param_2) ^ param_2) + param_2
+439;param_1 + param_2
+440;-(-param_2 - param_1)
+441;param_1 + param_2
+442;param_2 + param_1
+443;param_1 + param_2
+444;(-~param_1 & param_2 | param_2) + param_1
+445;param_2 + param_1
+446;~(~param_1 | ~(param_1 | param_2)) + param_2
+447;param_2 + param_1
+448;~(~param_1 - param_2)
+449;(~param_1 ^ ~param_2 + param_2) + param_2
+450;(~-param_1 & param_2 | param_2) + param_1
+451;~-((param_1 & param_2) - ~(param_1 | param_2))
+452;param_1 + param_2
+453;param_1 + param_2
+454;param_1 + param_2
+455;param_2 + param_1
+456;(~param_2 ^ 0xffffffff) + param_1
+457;~param_1 ^ ~param_1 - param_2 ^ param_1
+458;~(~(param_1 & param_2) | param_1) + param_1 + param_2
+459;(param_1 + param_2) - ~(~param_1 + param_1)
+460;-(-(param_1 & param_2) - (param_1 | param_2))
+461;(~param_1 + param_1 * 2) - ~param_2
+462;-(-param_2 - param_1)
+463;~((param_1 ^ 0xffffffff) - param_2)
+464;param_1 + param_2
+465;~(0xffffffff - param_2) + param_1
+466;(~-param_1 - param_1 & param_2) + param_1
+467;~(~param_1 - param_2)
+468;param_1 + param_2
+469;~(~(param_1 ^ param_2) ^ param_2) + param_2
+470;~param_1 - param_2 ^ ~param_2 ^ param_2
+471;param_1 + param_2
+472;(-(-param_2 | param_2) | param_2) + param_1
+473;(~(~(param_1 & param_2) | param_2) ^ param_1) + param_2
+474;param_2 + param_1
+475;~(param_1 - param_2) - (~param_1 - param_1)
+476;param_1 - (~param_2 + 1)
+477;(param_2 - ~param_2) + param_1 + ~param_2
+478;~param_1 - param_2 ^ ~param_1 + param_1
+479;-(-param_2 - param_1)
+480;~(~param_1 + param_1 ^ param_2) + param_1
+481;~(~param_1 - (param_1 & param_2 | param_2))
+482;(param_2 - param_1 & param_1 | param_1) + param_2
+483;~(~(-param_1 & param_2 | param_2) - param_1)
+484;~-param_1 - ~param_2
+485;(~param_1 + param_1 * 2) - ~param_2
+486;param_1 + param_2
+487;-param_1 ^ -param_1 ^ param_1 + param_2
+488;((-param_1 | param_1) & param_1) + param_2
+489;param_1 + param_2
+490;param_1 + param_2
+491;(-param_2 & param_1 | param_1) + param_2
+492;param_1 + param_2 & (param_1 + param_2 | param_2)
+493;~(~(~(~param_2 | param_1) | param_2) - param_1)
+494;(~(~param_2 + param_2) | param_2) + param_1
+495;(~(~param_1 | ~param_2) | param_1) + param_2
+496;-(-param_2 - param_1)
+497;~(~param_1 ^ param_1 + param_2 ^ param_1)
+498;~(~(param_1 & param_2) | param_2) + param_2 + param_1
+499;~(~param_1 - param_2 | ~param_2 - param_1)
+500;(param_1 + -1) - ~param_2
+501;~((~(param_1 * 2) + param_1) - param_2)
+502;~(~((-param_1 | param_1) & param_1) - param_2)
+503;(param_1 + param_2 + ~param_2) - ~param_2
+504;(param_2 - ~param_1) + ~param_1 + param_1
+505;param_2 + param_1
+506;(~param_1 + param_1) - (~param_1 - param_2)
+507;param_1 + param_2
+508;~((param_1 ^ 0xffffffff) - param_2)
+509;-~(~-param_1 + param_2)
+510;param_1 + param_2
+511;-(-param_2 - param_1) | param_1 + param_2
+512;~(~((~param_2 | param_1) & param_1) - param_2)
+513;~(~(param_1 | param_2) - (param_1 & param_2))
+514;~(~param_1 - param_2)
+515;~param_1 + (param_1 * 2 - ~param_2)
+516;param_2 + param_1
+517;param_2 + param_1
+518;~(~param_2 - param_1)
+519;param_1 - (-param_2 | -param_2 & param_2)
+520;param_2 + param_1
+521;param_1 - ((~(param_1 | param_2) & param_1) - param_2)
+522;param_2 + param_1
+523;(~param_1 + param_1 & param_1) + param_2
+524;~(~param_1 - param_2)
+525;(param_1 - ~param_2) + -1
+526;~(~param_2 + param_2 ^ param_2) + param_1
+527;~-(param_2 - ~param_1)
+528;param_1 + param_2
+529;((param_2 * 2 | param_2) & param_2) + param_1
+530;~(~(~param_1 + param_1 & param_1) - param_2)
+531;param_1 - (~param_2 + 1)
+532;(~param_1 + param_2) - ~(param_1 * 2)
+533;~(param_1 + param_2 ^ 0xffffffff)
+534;param_2 + param_1
+535;((-param_1 | param_2) & param_2) + param_1
+536;~(~param_1 - param_2)
+537;param_1 + param_2 & ~-param_2 - param_2
+538;(param_2 - ~param_1) + -1
+539;param_1 + param_2 ^ ~(~(param_1 & param_2) | param_2)
+540;~(~(-param_1 | param_2) | ~param_2) + param_1
+541;~(~(param_1 + param_2) + param_1) + param_1
+542;param_1 + param_2
+543;param_2 + param_1
+544;~(param_1 + param_2 ^ param_2 ^ ~param_2)
+545;param_2 + param_1
+546;-(-param_2 - param_1)
+547;param_1 + param_2
+548;param_2 + param_1
+549;(~param_1 ^ 0xffffffff) + param_2
+550;-(-param_2 - param_1)
+551;(param_1 + param_2 & param_2 | param_2) + param_1
+552;~(~-~param_1 - ~-param_2)
+553;(-(-param_2 & param_2) & param_2) + param_1
+554;(~param_2 ^ ~param_2 + param_2) + param_1
+555;(~-param_2 - param_2 & param_2) + param_1
+556;param_1 - (~(param_2 * 2) - ~param_2)
+557;~(~param_1 - param_2)
+558;param_1 + param_2 ^ ~param_2 ^ ~param_2
+559;(~(~param_1 - param_1) + param_2) - param_1
+560;~(~param_2 - param_1)
+561;param_1 + param_2
+562;(~(~param_2 + param_2) ^ param_1) + param_2
+563;~(~param_1 - param_2)
+564;~(param_2 ^ 0xffffffff) + param_1
+565;(~(-param_1 | ~param_2) | param_2) + param_1
+566;~((~(param_1 ^ param_2) ^ param_2) - param_2)
+567;~(~param_1 - param_2)
+568;~(param_2 ^ 0xffffffff) + param_1
+569;(~(~(param_1 | param_2) & param_1) & param_2) + param_1
+570;~(~(param_1 * 2) + param_1) + param_2
+571;~(param_1 | param_2) & param_1 | param_1 + param_2
+572;~(~(param_1 & param_2 | param_2) - param_1)
+573;~param_1 - param_2 ^ param_2 ^ ~param_2
+574;(param_2 - ~param_1) + -1
+575;param_1 + param_2
+576;~(~param_1 - param_2 ^ param_1) ^ param_1
+577;param_2 + param_1
+578;param_1 + param_2
+579;(param_1 ^ param_2 | param_1) + (param_1 & param_2)
+580;((-param_1 | param_1) & param_1) + param_2
+581;-(-param_2 - param_1)
+582;~(~param_2 - param_1 | ~(param_1 + param_2))
+583;(param_1 + -1) - ~param_2
+584;param_1 + param_2
+585;(param_1 + -1) - ~param_2
+586;(~param_2 + param_1 + param_2) - ~param_2
+587;-~-(-~-param_2 - param_1)
+588;param_2 + param_1
+589;-1 - (~param_1 - param_2)
+590;param_1 - ~(param_2 - 1)
+591;param_1 + param_2
+592;-~(~-param_2 + param_1)
+593;~(~param_1 - param_2)
+594;(~param_2 + param_2 & param_1) + param_2
+595;param_1 - (~param_2 + 1)
+596;(~(~(param_1 | param_2) & param_2) & param_1) + param_2
+597;~(~param_1 + param_1 & ~(param_1 + param_2))
+598;param_1 + param_2
+599;(param_1 - ~param_1) + ~(param_1 - param_2)
+600;((param_1 ^ param_2 | param_2) & param_1) + param_2
+601;(param_1 | param_2 | param_1) + (param_1 & param_2)
+602;param_1 + param_2
+603;param_1 + param_2
+604;param_2 + param_1
+605;param_1 + param_2
+606;param_1 + param_2
+607;param_1 + param_2
+608;~param_1 + (param_1 * 2 - ~param_2)
+609;~(~((param_1 | param_2) & param_2) - param_1)
+610;((-param_1 | param_2) & param_2) + param_1
+611;~(~param_1 - param_2)
+612;((param_1 | param_2 | param_1) & param_2) + param_1
+613;-(-param_1 - param_2)
+614;(param_1 + -1) - ~param_2
+615;~(~(param_1 & param_2) - (param_1 | param_2))
+616;param_2 + param_1
+617;param_1 - ((~param_1 - param_2) - ~param_1)
+618;(param_1 + -1) - ~param_2
+619;~(~param_1 - param_2) | param_1 + param_2
+620;param_1 + param_2
+621;(param_1 + -1) - ~param_2
+622;param_1 + param_2
+623;param_1 + param_2
+624;~param_1 ^ ~(param_1 + param_2) ^ param_1
+625;param_1 + param_2
+626;~(~param_1 - param_2)
+627;(param_2 - ~param_1) + -1
+628;(~-param_2 - param_2 & param_1) + param_2
+629;(~(~param_1 - param_1) + param_2) - param_1
+630;~(param_1 + param_2 ^ 0xffffffff)
+631;param_1 + param_2
+632;-(-param_2 - param_1)
+633;(~(~param_2 | param_1) | param_2) + param_1
+634;param_2 + param_1
+635;(~param_1 ^ 0xffffffff) + param_2
+636;((-param_2 | param_1) & param_1) + param_2
+637;(param_1 & param_2 | param_2) + param_1
+638;param_2 + param_1
+639;~(~param_2 - param_1)
+640;~param_1 + param_1 + (param_2 - ~param_1)
+641;((~param_1 | param_2) & param_2) + param_1
+642;~(~param_2 + param_2) + param_1 + param_2
+643;~(~param_2 - param_1)
+644;~(param_1 + param_2) ^ 0xffffffff
+645;param_1 + param_2
+646;((~(param_1 | param_2) ^ param_1) & param_1) + param_2
+647;~((~param_2 ^ param_1 ^ param_2) - param_2)
+648;((param_1 + param_2) - ~param_2) + ~param_2
+649;param_1 + param_2
+650;~(~(param_1 | param_2) & param_1) & param_1 + param_2
+651;param_2 + param_1
+652;~(~param_1 + param_1) ^ param_1 + param_2
+653;~(~param_2 - param_1 ^ param_1) ^ param_1
+654;(~(param_1 | param_2) & param_1) + param_1 + param_2
+655;~(~param_1 - param_2)
+656;~(param_1 + param_2 ^ ~param_2 + param_2)
+657;((param_1 | param_2) & param_1) + param_2
+658;(param_1 - (~param_2 - param_2)) + ~param_2
+659;-1 - (~param_2 - param_1)
+660;param_2 + param_1
+661;~((~param_1 | ~(param_1 | param_2)) - param_2)
+662;param_2 + param_1
+663;param_2 + param_1
+664;(~(param_1 | param_2) & param_1 | param_2) + param_1
+665;param_2 + param_1
+666;param_1 - ~(~param_1 + param_1 + param_2)
+667;param_1 + param_2
+668;~(~((param_1 | param_2) & param_1) - param_2)
+669;param_1 - (~param_2 + 1)
+670;(param_1 & param_2 & param_2 | param_2) + param_1
+671;(~param_1 ^ ~param_2 ^ param_1) + param_1
+672;param_2 + param_1
+673;(~(param_1 | param_2) & param_2 | param_2) + param_1
+674;(~param_1 ^ ~param_1 ^ param_2) + param_1
+675;param_1 + param_2
+676;~(~param_1 | ~(~param_2 | param_1)) + param_2
+677;-(~param_1 - ~-param_2)
+678;param_2 + param_1
+679;(param_1 - ~(~(param_1 & param_2) | param_1)) + param_2
+680;~param_1 + param_2 + (param_1 - ~param_1)
+681;~param_1 - param_2 ^ 0xffffffff
+682;param_2 + param_1
+683;-1 - ~(param_1 + param_2)
+684;-(-(param_1 & param_2 | param_2) - param_1)
+685;(~(param_1 & param_2) & param_1 | param_1) + param_2
+686;-(-param_2 - param_1)
+687;~(param_1 + param_2) ^ param_2 ^ ~param_2
+688;-~-(-param_2 - ~-param_1)
+689;-(-param_2 - param_1)
+690;param_1 + param_2
+691;(param_1 & param_2 | param_1) + param_2
+692;param_1 + param_2
+693;(param_1 + -1) - ~param_2
+694;~-(param_1 - ~param_2)
+695;param_2 + param_1
+696;param_2 + param_1
+697;((param_1 * 2 | param_2) & param_2) + param_1
+698;param_1 - (-param_2 & ~param_2 + param_2)
+699;((param_1 + param_2 | param_1) & param_1) + param_2
+700;~(~(param_1 - param_2) + param_2 * -2)
+701;-(-param_1 - param_2)
+702;(param_1 + -1) - ~param_2
+703;param_1 + param_2
+704;param_2 + param_1
+705;(~param_1 + param_1) - ~(param_1 + param_2)
+706;param_1 * 2 - (~param_2 - ~param_1)
+707;param_1 + param_2
+708;~((~param_1 + param_1) - param_2) + param_1
+709;(param_1 - ~param_2) + param_2 + ~param_2
+710;((param_1 * 2 | param_1) & param_1) + param_2
+711;param_1 + param_2
+712;-(-param_2 - param_1)
+713;~(~param_2 + param_2) + param_2 + param_1
+714;(param_1 - param_2 & param_1 | param_1) + param_2
+715;param_2 + param_1
+716;~(~param_2 - param_1)
+717;(~(param_1 | param_2) & param_1 ^ param_2) + param_1
+718;param_1 + param_2
+719;~(~param_2 - param_1)
+720;(~param_1 + param_1 * 2) - ~param_2
+721;param_2 + param_1
+722;param_2 + param_1
+723;param_1 + param_2
+724;(~(param_1 | param_2) & param_1 ^ param_1) + param_2
+725;param_1 + param_2 | ~(param_1 | param_2) & param_2
+726;~(~param_2 & ~param_2 + param_2) + param_1
+727;param_1 + param_2
+728;~(~param_1 & ~param_2 + param_2) + param_2
+729;~param_2 - param_1 ^ 0xffffffff
+730;param_1 + param_2
+731;~(~param_1 - param_2)
+732;~(~param_1 - param_2)
+733;~param_1 + (param_1 * 2 - ~param_2)
+734;param_1 + param_2
+735;((param_1 + param_2 | param_2) & param_2) + param_1
+736;param_2 + param_1
+737;~(~param_1 - param_2 & ~(param_1 + param_2))
+738;param_1 - (~(param_1 + param_2) - ~param_1)
+739;-(-param_2 - param_1)
+740;(~(~param_1 & param_2) & param_1) + param_2
+741;param_1 + param_2
+742;~param_1 - ((~param_1 - param_1) - param_2)
+743;(param_2 - ~param_1) + param_1 + ~param_1
+744;~(~param_1 - param_2)
+745;param_2 + param_1
+746;-(-param_2 - param_1)
+747;~(~param_2 - param_1)
+748;param_1 + param_2
+749;param_1 + param_2
+750;param_2 + param_1
+751;((~(param_1 & param_2) | param_2) & param_1) + param_2
+752;((-param_2 | param_2) & param_2) + param_1
+753;~(~param_2 - param_1 & ~param_1 + param_1)
+754;~(~((param_1 | param_2) & param_2) - param_1)
+755;((param_1 | param_2) ^ param_2 | param_1) + param_2
+756;((param_1 ^ param_2) & param_1 | param_1) + param_2
+757;~((~param_1 ^ param_1 ^ param_2) - param_1)
+758;(~(~(param_1 | param_2) & param_2) & param_2) + param_1
+759;~((~param_1 - param_2) - param_1) - param_1
+760;(param_1 & param_2 & param_1 | param_2) + param_1
+761;-(-param_2 - param_1)
+762;param_1 + param_2
+763;param_1 + param_2
+764;(-param_2 & param_2 | param_2) + param_1
+765;~((param_1 ^ param_2 ^ ~param_2) - param_2)
+766;((param_1 | param_2) & param_2) + param_1
+767;~(~(~param_1 & param_2 | param_2) - param_1)
+768;param_1 + param_2
+769;param_1 + param_2
+770;param_1 + param_2
+771;(~(~(param_1 & param_2) & param_2) & param_1) + param_2
+772;~(~param_1 + param_1) | param_1 + param_2
+773;~(~param_1 - param_2)
+774;param_1 + param_2
+775;param_2 + param_1
+776;param_2 + param_1
+777;~(~(param_1 * 2) - (param_2 - param_1))
+778;param_1 + param_2
+779;(~(~(param_1 | param_2) & param_1) & param_1) + param_2
+780;(param_1 - ~param_2) + param_2 + ~param_2
+781;~(~param_2 - param_1)
+782;param_1 + param_2
+783;~((~(param_1 ^ param_2) ^ param_1) - param_1)
+784;(~param_1 & param_2 | param_2) + param_1
+785;param_2 + param_1
+786;~(~(param_1 & param_2) | param_1) | param_1 + param_2
+787;(param_2 - ~(~param_1 + param_1)) + param_1
+788;~(~param_2 - param_1)
+789;(~param_2 + param_2 + param_1) - ~param_2
+790;(param_1 - ~(~(param_1 & param_2) | param_2)) + param_2
+791;param_1 + param_2
+792;param_2 + param_1
+793;param_1 - (-param_2 & (-param_2 | param_2))
+794;~(~param_2 - param_1)
+795;param_2 + param_1
+796;~(~(param_1 + param_2) ^ param_2) ^ param_2
+797;param_1 + param_2
+798;~param_2 + (param_1 - (~param_2 - param_2))
+799;~(~(param_1 & param_2) | param_1) + param_1 + param_2
+800;(-~param_2 & param_1 | param_1) + param_2
+801;(~param_2 + param_2 & param_2) + param_1
+802;param_1 + param_2
+803;param_1 + param_2 ^ -param_2 ^ -param_2
+804;param_1 * 2 + ~(~param_2 + param_1)
+805;-(-param_2 - param_1)
+806;~(~(param_1 & param_2) | param_1) ^ param_1 + param_2
+807;param_2 + param_1
+808;param_2 + param_1
+809;(~(param_1 | param_2) & param_1 | param_1) + param_2
+810;param_2 + param_1
+811;(~(~param_1 + param_1) | param_1) + param_2
+812;(~(~param_1 & ~param_2) & param_2) + param_1
+813;~param_1 + (param_1 - ~(param_1 + param_2))
+814;-(-param_2 - param_1)
+815;~((param_1 ^ 0xffffffff) - param_2)
+816;~(~param_1 - param_2)
+817;(~param_1 + param_1 * 2) - ~param_2
+818;((~param_2 | param_1) & param_1) + param_2
+819;~(~param_1 - param_2)
+820;((~param_1 | param_2) & param_2) + param_1
+821;param_2 + param_1
+822;param_1 + param_2
+823;~(~param_2 - param_1) | param_1 + param_2
+824;param_2 + param_1
+825;param_2 + param_1
+826;param_1 + param_2
+827;(~(~(param_1 & param_2) | param_2) | param_1) + param_2
+828;param_1 + param_2
+829;param_1 + param_2 & param_1 | param_1 + param_2
+830;(param_2 - ~param_1) + -1
+831;param_1 - (~param_1 - ~(param_1 - param_2))
+832;param_1 + param_2 & ~param_2 + param_2
+833;param_1 + param_2
+834;~(~param_1 - param_2)
+835;(param_2 * 2 & param_2 | param_2) + param_1
+836;~(~(param_1 & param_2) & ~param_2) + param_1
+837;(param_1 | param_2) + (param_1 & param_2)
+838;(-param_2 ^ param_1 ^ -param_2) + param_2
+839;((param_2 - param_1 | param_1) & param_1) + param_2
+840;(-param_2 & param_2 | param_2) + param_1
+841;((param_1 | param_2 | param_2) & param_1) + param_2
+842;-(-param_2 - param_1)
+843;param_1 + param_2
+844;~(~param_1 + param_1 ^ param_1) + param_2
+845;~(0xffffffff - param_2) + param_1
+846;param_1 + param_2 + (~(param_1 | param_2) & param_2)
+847;~(~param_1 - param_2)
+848;(~param_2 + param_2 & param_2) + param_1
+849;~(~param_2 - param_1)
+850;-(-param_2 - param_1)
+851;(~param_2 + param_2 + param_1) - ~param_2
+852;param_1 + param_2 + ~(~param_2 + param_2)
+853;~(~(param_1 * 2) - param_2) - param_1
+854;param_1 - (~(~(param_1 & param_2) | param_1) - param_2)
+855;param_1 + param_2
+856;param_1 - (-param_2 & param_1 | -param_2)
+857;param_1 + param_2
+858;~param_2 + (param_2 - ~param_2) + param_1
+859;((~param_1 | param_2) & param_2) + param_1
+860;param_1 + param_2
+861;param_1 + param_2
+862;~param_1 - param_2 ^ 0xffffffff
+863;(param_2 - ~param_1) + -1
+864;((~-param_2 | param_2) & param_2) + param_1
+865;(param_1 - ~param_2) + -1
+866;(param_1 + -1) - ~param_2
+867;~((~(param_1 & param_2) & ~param_2) - param_1)
+868;param_2 + param_1
+869;~(~param_1 + param_1) + param_1 + param_2
+870;~(~param_1 - param_2)
+871;param_1 * 2 - ~(~param_1 + param_2)
+872;param_2 + param_1
+873;(param_1 - param_2 & param_2 | param_2) + param_1
+874;~(~param_1 - (param_2 - param_1)) + param_1
+875;~(~(param_2 - param_1) - param_1) + param_1
+876;param_1 + param_2
+877;param_2 + param_1
+878;(param_1 & param_2 ^ param_2 | param_2) + param_1
+879;~(~(param_1 + param_2) - param_2) - param_2
+880;(~(param_1 | param_2) & param_2 ^ param_2) + param_1
+881;param_2 + param_1
+882;param_1 + param_2 & ~param_2 + param_2
+883;param_1 + param_2
+884;~(~param_1 - param_2)
+885;(~param_1 + param_2) - ~(param_1 * 2)
+886;~(~param_1 - (param_1 + param_2)) - param_1
+887;~(~param_2 - param_1)
+888;param_1 + param_2
+889;~(param_1 + param_2 ^ 0xffffffff)
+890;(~(~param_1 | -param_1) | param_1) + param_2
+891;~(~param_1 - param_2 | ~(param_1 + param_2))
+892;~param_1 - param_2 ^ 0xffffffff
+893;param_1 + param_2
+894;(param_1 - (~(param_1 | param_2) & param_1)) + param_2
+895;param_1 - ~(~param_1 + param_2 + param_1)
+896;(param_1 + param_2) - (~(param_1 | param_2) & param_2)
+897;(param_1 + -1) - ~param_2
+898;param_1 + param_2
+899;((param_1 ^ param_2 | param_1) & param_1) + param_2
+900;param_1 + param_2
+901;param_1 + param_2
+902;(~param_1 - ~param_2) + param_1 * 2
+903;~-param_1 - ~param_2
+904;param_1 + param_2
+905;param_1 + param_2
+906;~(~(param_1 + param_2 ^ param_2) ^ param_2)
+907;(~(~param_1 & ~param_2) & param_1) + param_2
+908;~(param_1 ^ param_2 ^ ~param_2) + param_2
+909;-(-param_2 - param_1)
+910;(param_1 | param_2 | param_2) + (param_1 & param_2)
+911;param_1 + param_2
+912;~(~((-param_2 | param_1) & param_1) - param_2)
+913;param_1 + param_2
+914;param_1 + param_2
+915;~(~(param_1 * 2 + param_2) + param_1)
+916;param_2 + param_1
+917;~(~param_2 - param_1)
+918;param_2 + param_1
+919;param_1 + param_2
+920;(param_1 - ~param_2) + -1
+921;param_1 + param_2
+922;~param_1 ^ ~param_2 - param_1 ^ param_1
+923;~(~param_1 | ~param_1 & param_2) + param_2
+924;param_1 - ~(~param_2 + param_2 * 2)
+925;param_2 + param_1
+926;~(~param_1 - param_2)
+927;param_1 + param_2
+928;-(-param_2 - param_1) & param_1 + param_2
+929;(~(~param_1 & -param_1) & param_1) + param_2
+930;param_1 - (~(~param_1 + param_1) - param_2)
+931;(param_2 * 2 & param_1 | param_1) + param_2
+932;~(~param_1 - param_2)
+933;param_1 + param_2
+934;((param_1 | param_2) & param_2) + param_1
+935;~((param_2 ^ 0xffffffff) - param_1)
+936;(param_1 & param_2 & param_1 | param_1) + param_2
+937;~((param_2 ^ 0xffffffff) - param_1)
+938;param_2 + param_1
+939;param_2 + param_1
+940;param_1 + param_2
+941;param_1 + param_2
+942;-(-param_1 - param_2)
+943;(~param_2 + param_2 & param_1) + param_2
+944;~param_1 - (param_1 * -2 + ~param_2)
+945;(-param_2 & param_2 | param_2) + param_1
+946;~param_1 + param_1 & param_1 + param_2
+947;(~(param_1 | param_2) & param_2) + param_1 + param_2
+948;param_2 + param_1
+949;param_1 + param_2
+950;~(~param_1 - param_2)
+951;param_2 + param_1
+952;(~param_2 ^ 0xffffffff) + param_1
+953;~((~(param_1 * 2) + param_1) - param_2)
+954;param_1 + param_2
+955;((~-param_1 | param_2) & param_2) + param_1
+956;(~(~param_2 & param_1) & param_2) + param_1
+957;param_1 + param_2
+958;param_1 + param_2
+959;param_2 + param_1
+960;~(~param_1 | ~(-param_2 | param_1)) + param_2
+961;-(-param_2 - param_1)
+962;(param_1 - ~(~param_2 + param_2)) + param_2
+963;-(-param_1 - param_2)
+964;((~(param_1 & param_2) | param_2) & param_2) + param_1
+965;param_2 + param_1
+966;param_1 + param_2
+967;~-~(~param_1 + ~param_2)
+968;(~param_2 + param_1) - ~(param_2 * 2)
+969;((~(param_1 & param_2) ^ param_2) & param_1) + param_2
+970;~(param_1 + param_2 ^ param_2) ^ ~param_2
+971;(~(~(param_1 & param_2) | param_2) ^ param_2) + param_1
+972;param_1 + param_2
+973;(param_1 - ~param_1) + ~(param_1 - param_2)
+974;param_2 + param_1
+975;(~param_1 + param_1 & param_1) + param_2
+976;-1 - ~(param_1 + param_2)
+977;param_2 + param_1
+978;(~(~param_1 | ~param_2) | param_2) + param_1
+979;(param_1 - ~param_2) + param_2 + ~param_2
+980;~param_2 - param_1 ^ ~param_1 + param_1
+981;param_1 + param_2
+982;~((~param_1 + param_1 ^ param_1) - param_2)
+983;(~(~(param_1 & param_2) & param_1) & param_2) + param_1
+984;param_2 + param_1
+985;~param_1 - (~param_1 - (param_1 + param_2))
+986;(~(~param_1 + param_1) ^ param_1) + param_2
+987;param_1 - ~(param_2 - 1)
+988;param_2 + param_1
+989;-(-((param_1 | param_2) & param_2) - param_1)
+990;param_1 * 2 - (~param_2 - ~param_1)
+991;(~param_1 + param_1 * 2) - ~param_2
+992;~(~param_2 - param_1)
+993;((-param_2 | param_2) & param_2) + param_1
+994;~(~(param_1 | param_2) - (param_1 & param_2))
+995;param_2 + param_1
+996;param_1 + param_2
+997;(~param_1 ^ 0xffffffff) + param_2
+998;param_2 + param_1
+999;param_2 + param_1
+1000;((param_1 | param_2 | param_2) & param_2) + param_1

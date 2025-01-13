@@ -1,0 +1,5021 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+
+int mba_1(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ y)) + (- (y + (~ y))));
+}
+int mba_2(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((~ (x | (~ y))) | y)))));
+}
+int mba_3(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((x | (~ x)) ^ y));
+}
+int mba_4(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (x & (~ y))))) + (- y));
+}
+int mba_5(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) & (~ (x & (~ x)))));
+}
+int mba_6(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y & (~ (y & (~ y))))))));
+}
+int mba_7(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (y & (~ y))))) + (- y));
+}
+int mba_8(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) + y)) + (x + (~ x)));
+}
+int mba_9(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) & (x ^ (~ x))));
+}
+int mba_10(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (x | (~ (x & y)))))) + (- y));
+}
+int mba_11(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ y)) + (- (y ^ (~ y))));
+}
+int mba_12(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((x ^ y) ^ (~ y))) + (- y));
+}
+int mba_13(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (- (~ (x | (~ x))))) + (- y));
+}
+int mba_14(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (~ y))) + (- y));
+}
+int mba_15(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ (x ^ y)) ^ y) + y));
+}
+int mba_16(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (~ (y + (~ y))))));
+}
+int mba_17(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- x) + (x + y)) & y)));
+}
+int mba_18(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (x + ((- x) + (- y))));
+}
+int mba_19(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ (y + (~ (y & (~ y))))));
+}
+int mba_20(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ (x & y)))) + y)));
+}
+int mba_21(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x & y)) | y)) + (x + (- y)));
+}
+int mba_22(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x | (~ x)) & y)));
+}
+int mba_23(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (~ (- x)))) + (- y));
+}
+int mba_24(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((((~ x) ^ (~ y)) ^ y) + (- y));
+}
+int mba_25(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((- x) + (x + (~ y))));
+}
+int mba_26(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (x & y)))) + (- y));
+}
+int mba_27(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (~ ((~ x) | y))))) + (- y));
+}
+int mba_28(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ (x & (~ x)))) + y)));
+}
+int mba_29(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ (x & (~ x))) ^ y))));
+}
+int mba_30(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (y ^ (~ y))))) + (- y));
+}
+int mba_31(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + ((- x) + y))) + (- x));
+}
+int mba_32(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- (~ ((x + x) + (- y)))));
+}
+int mba_33(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((x ^ y) ^ y)) + (- y));
+}
+int mba_34(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (y | (~ y))))) + (- y));
+}
+int mba_35(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (((- x) & y) | y)));
+}
+int mba_36(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ x) ^ (x ^ y)))));
+}
+int mba_37(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x | y) | y) & y)));
+}
+int mba_38(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (x + ((- x) + (~ y))))));
+}
+int mba_39(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (- x)) | y) & y)));
+}
+int mba_40(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (y + (- (~ ((~ y) + (- y))))));
+}
+int mba_41(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((- x) & (~ y))) & y)));
+}
+int mba_42(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | ((~ x) & y))) + (- y));
+}
+int mba_43(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + ((x & y) | y)));
+}
+int mba_44(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ ((- x) + (x + x))) + y));
+}
+int mba_45(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (y ^ (~ y))) + y));
+}
+int mba_46(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((- x) + y) ^ y) ^ y));
+}
+int mba_47(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (x ^ (- ((- x) + y))));
+}
+int mba_48(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (x + (~ x))))) + (- y));
+}
+int mba_49(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((- x) + y) + y) + (- y)));
+}
+int mba_50(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + y) + ((- y) + (- y)));
+}
+int mba_51(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x | (~ x)) + (- y)))));
+}
+int mba_52(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + (- y)) + (x + (- (~ x))));
+}
+int mba_53(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (x & (~ x))) + (- y));
+}
+int mba_54(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x | (~ x))) | (~ (x + (- y)))));
+}
+int mba_55(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (~ (y | (~ y)))))) + (- y));
+}
+int mba_56(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (y + y))) + (- y));
+}
+int mba_57(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((((~ x) + (- y)) + y) + y));
+}
+int mba_58(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) ^ ((~ x) ^ (x + (- y))));
+}
+int mba_59(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x + (- y)) & y) | y)));
+}
+int mba_60(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) & (x + (- y)));
+}
+int mba_61(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x + (~ x)) ^ (~ y))));
+}
+int mba_62(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((x ^ y) | y)) + (- y));
+}
+int mba_63(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- y))) | (y & (~ y))));
+}
+int mba_64(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (x ^ ((~ x) ^ y)))));
+}
+int mba_65(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ (x & (~ x)))) | y)));
+}
+int mba_66(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + (y + y)) + (- y)));
+}
+int mba_67(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x + (~ x))) + (x + (~ y)));
+}
+int mba_68(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ x) + (- (~ (x + y))))));
+}
+int mba_69(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ (x + y)) + y) + y));
+}
+int mba_70(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((x + (~ x)) & (- y)));
+}
+int mba_71(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (x | (- y))))) + (- y));
+}
+int mba_72(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (y + y))) + y);
+}
+int mba_73(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ (x & y)))) | y)));
+}
+int mba_74(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + ((- y) + (- y))) + y);
+}
+int mba_75(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x | (x & (- x)))) + y));
+}
+int mba_76(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (x & (~ x)));
+}
+int mba_77(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x & (~ x))) + (x + (- y)));
+}
+int mba_78(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((- x) | (~ y))) | y)));
+}
+int mba_79(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- x) + (x + (- (~ x)))) + (~ y));
+}
+int mba_80(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (~ ((~ x) ^ (x + (- y)))));
+}
+int mba_81(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (y + (~ y))) + (- y));
+}
+int mba_82(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ x))) + (- (x + (- (~ y)))));
+}
+int mba_83(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- ((- x) + y)) ^ y) ^ y);
+}
+int mba_84(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (~ (x & (~ x))))) + (- y));
+}
+int mba_85(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ ((~ x) | y))) + (- y));
+}
+int mba_86(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (x ^ (~ x))) + (- y)));
+}
+int mba_87(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + (- x))) + (- (x + y)));
+}
+int mba_88(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- x) + ((x ^ (~ x)) + y)));
+}
+int mba_89(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ ((~ (x & y)) | y))) + y)));
+}
+int mba_90(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ y)) + (~ (y & (~ y))))));
+}
+int mba_91(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (x | (~ (x & y)))) + (- y)));
+}
+int mba_92(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & ((- y) + (~ (- y))))));
+}
+int mba_93(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (~ (y | (~ y))))) + (- y));
+}
+int mba_94(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((~ x) ^ (x ^ y)));
+}
+int mba_95(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x | y)) & y)) & (x + (- y)));
+}
+int mba_96(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((~ (~ (x | y))) & y)));
+}
+int mba_97(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (x | (~ x)))) + (- y));
+}
+int mba_98(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + ((x | y) & y)));
+}
+int mba_99(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + ((x + (- (~ x))) + (- y)));
+}
+int mba_100(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (y | (~ y)))) + (- y));
+}
+int mba_101(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (x | (~ x)))) + (- y));
+}
+int mba_102(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (y + (- (y + y))));
+}
+int mba_103(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ x) ^ ((~ x) ^ y))));
+}
+int mba_104(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ (x | y)) | (~ y)))));
+}
+int mba_105(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (- (~ (y | (~ y))))) + (- y));
+}
+int mba_106(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (- y)) ^ (y | (~ y))));
+}
+int mba_107(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (~ (y & (~ y))))));
+}
+int mba_108(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ (x + (- y))) + (- y)) + y));
+}
+int mba_109(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + (- x)) + (x + y)));
+}
+int mba_110(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (y | (~ y)))) + (- y));
+}
+int mba_111(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- x) + (- ((- x) + y))));
+}
+int mba_112(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (y & (~ y)))));
+}
+int mba_113(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) | (- (~ (y | (~ y)))));
+}
+int mba_114(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + y) + (x + (~ x))));
+}
+int mba_115(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x ^ (~ x)) & (x + (- y)))));
+}
+int mba_116(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ (x | y)) & y)) + (x + (- y)));
+}
+int mba_117(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (~ (x & y))) & y)));
+}
+int mba_118(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (y + (~ y)))) + (- y));
+}
+int mba_119(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (- (~ (y + (~ y)))))));
+}
+int mba_120(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x + (- y))) & (x + (- y)));
+}
+int mba_121(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (x | (~ (x & y))))) + (- y));
+}
+int mba_122(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ y)) + (- (~ (y & (~ y)))));
+}
+int mba_123(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- (x + (- y))) + y)) + y);
+}
+int mba_124(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x & (~ (x | y))) ^ y)));
+}
+int mba_125(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (x & (~ (x | y)))) + (- y));
+}
+int mba_126(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ (x + ((- x) + y))));
+}
+int mba_127(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x | (~ x)) & (~ (x + (- y)))));
+}
+int mba_128(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + y) + (- (y + y)));
+}
+int mba_129(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (~ (x | (~ x))))) + (- y));
+}
+int mba_130(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) & ((x + (- y)) | y));
+}
+int mba_131(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((~ (x & y)) ^ y)) + (- y));
+}
+int mba_132(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (~ x)) + (~ (x + y))));
+}
+int mba_133(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x + (- y)) & (y ^ (~ y)))));
+}
+int mba_134(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ x)) + (- (~ (x + (- y)))));
+}
+int mba_135(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y ^ (y & (~ y)))));
+}
+int mba_136(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (- (~ y)))) + (- y));
+}
+int mba_137(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x + x) & y) | y)));
+}
+int mba_138(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (- y)) ^ (y + (~ y))));
+}
+int mba_139(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) & (y + (~ y))));
+}
+int mba_140(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ ((~ x) & y)) & (~ y)))));
+}
+int mba_141(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + (x & (~ x)))) + (- y));
+}
+int mba_142(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (~ (y | (~ y))))));
+}
+int mba_143(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (x & y))) + (- y));
+}
+int mba_144(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + (- y)) + (- (~ (x + x))));
+}
+int mba_145(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + y) ^ (x | (~ x)));
+}
+int mba_146(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (x | y))) + y));
+}
+int mba_147(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x ^ (~ ((~ x) ^ y)))));
+}
+int mba_148(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (~ (~ (x | y))))) + y));
+}
+int mba_149(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x | (~ x))) ^ (x + (- y)));
+}
+int mba_150(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x | y)) & y) ^ y)));
+}
+int mba_151(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ ((~ x) & (- y)))) + (- y));
+}
+int mba_152(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y + (~ y)))));
+}
+int mba_153(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (~ x)) ^ (x + (- y))));
+}
+int mba_154(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ y)) + (- (y | (~ y))));
+}
+int mba_155(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x ^ y) ^ y) + (- y));
+}
+int mba_156(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (~ (x + x)))) + (- y));
+}
+int mba_157(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (x + (~ x)))) + y));
+}
+int mba_158(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ ((~ (x & y)) | y))) + (x + (- y)));
+}
+int mba_159(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x & (x & y)) | y)));
+}
+int mba_160(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x + (- y)) & (y + (~ y)))));
+}
+int mba_161(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ ((~ x) + y)) + (- y)) + y);
+}
+int mba_162(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ ((x + (~ x)) + y)));
+}
+int mba_163(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((~ (~ (x & y))) | y)))));
+}
+int mba_164(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((x ^ (~ y)) ^ y) + y));
+}
+int mba_165(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (~ (- y)))) + (- y));
+}
+int mba_166(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x & y) ^ y) | y)));
+}
+int mba_167(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x ^ (~ y)) ^ (~ y)) + (- y));
+}
+int mba_168(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (x | (~ x)))) + (- y));
+}
+int mba_169(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- (~ x)) + (x + (~ x))) + (- y));
+}
+int mba_170(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (~ (x & (~ x))))) + (- y));
+}
+int mba_171(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (((~ x) + y) + (- y))) + (- y));
+}
+int mba_172(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (~ (~ (y & (~ y)))))));
+}
+int mba_173(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) + (- (y & (~ y)))));
+}
+int mba_174(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (x ^ (~ x)))) + (- y));
+}
+int mba_175(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + ((~ x) + ((- x) + y))));
+}
+int mba_176(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (~ ((x + x) + (- y)))));
+}
+int mba_177(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (y & (~ y)))));
+}
+int mba_178(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ ((x + (- y)) + (- y))) + (- y)));
+}
+int mba_179(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y ^ (~ y)))));
+}
+int mba_180(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((x ^ (x ^ (- x))) + y));
+}
+int mba_181(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ x) | y) & y)));
+}
+int mba_182(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (x ^ (~ x)))) + (- y));
+}
+int mba_183(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + ((~ (x | y)) & y)) + (- y));
+}
+int mba_184(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (y ^ (~ y))) + (- y));
+}
+int mba_185(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- ((~ (x + x)) + y)));
+}
+int mba_186(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x ^ (~ x))) + (- y));
+}
+int mba_187(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((x + (- y)) + y)) + (- y));
+}
+int mba_188(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (- ((- (~ x)) + (- y))));
+}
+int mba_189(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x + y)) + y)) + (- y));
+}
+int mba_190(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x | y)) ^ y) & y)));
+}
+int mba_191(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x + x) | y) & y)));
+}
+int mba_192(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- (x + y)) + y) + y));
+}
+int mba_193(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (x & (~ x))) + y)));
+}
+int mba_194(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (x + (~ ((~ x) + y))));
+}
+int mba_195(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (y & (~ y)))) + (- y));
+}
+int mba_196(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x + (~ x))) ^ y)));
+}
+int mba_197(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (x | (~ x))))) + (- y));
+}
+int mba_198(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- y));
+}
+int mba_199(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x ^ (~ (x ^ (x + (- y))))));
+}
+int mba_200(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((((~ x) + y) + (- y)) + y));
+}
+int mba_201(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) & (y | (~ y))));
+}
+int mba_202(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (x + (~ (x + y))))));
+}
+int mba_203(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x & (~ x)) ^ y)));
+}
+int mba_204(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (x | (~ x))) + (- y)));
+}
+int mba_205(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((x | (~ x)) & y)))));
+}
+int mba_206(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (~ (y + (~ y))));
+}
+int mba_207(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (~ (y & (~ y))))) + (- y));
+}
+int mba_208(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (x ^ (~ ((~ x) + y))));
+}
+int mba_209(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (- y)) ^ (y ^ (~ y))));
+}
+int mba_210(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (~ x))) & (~ (x + (- y)))));
+}
+int mba_211(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x + (((- x) + (- x)) + y)));
+}
+int mba_212(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (x + ((- (~ x)) + (~ y))));
+}
+int mba_213(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x ^ ((~ x) ^ (~ y)))));
+}
+int mba_214(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ (x | y)))) | y)));
+}
+int mba_215(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) & y)) + (~ ((~ x) | y)));
+}
+int mba_216(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (~ (x & (~ x)))) + (~ y)));
+}
+int mba_217(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- ((x + y) + (- y))) + y));
+}
+int mba_218(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (~ (- ((- x) + (- (~ y))))));
+}
+int mba_219(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- ((- (x + (- (~ x)))) + y)));
+}
+int mba_220(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + y) & (- (x + (- y)))));
+}
+int mba_221(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (x ^ (~ x))) + y));
+}
+int mba_222(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((x + (- y)) ^ y)) ^ (~ y));
+}
+int mba_223(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ ((~ x) + (- y)))) + (x + x));
+}
+int mba_224(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) & (x ^ (~ x)));
+}
+int mba_225(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x ^ (~ x)) + (- y)))));
+}
+int mba_226(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (x | (- x))))) + (- y));
+}
+int mba_227(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y & (y ^ (~ y)))))));
+}
+int mba_228(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (((~ (x | y)) & y) + (- y)));
+}
+int mba_229(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- y))) & (y | (~ y))));
+}
+int mba_230(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x & (~ x))) & (x + (- y)));
+}
+int mba_231(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((((~ x) + y) ^ y) ^ (~ y));
+}
+int mba_232(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (y ^ (~ y)))) + (- y));
+}
+int mba_233(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((~ x) & (~ y))) & y)));
+}
+int mba_234(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- (x + (- y))) + (- y)) + y));
+}
+int mba_235(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x & (~ x))) + (- (~ (x + (- y)))));
+}
+int mba_236(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (~ (x + (x + (- y))))));
+}
+int mba_237(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (x | (~ y)))) + y));
+}
+int mba_238(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ y))) | y)));
+}
+int mba_239(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ ((~ x) ^ y)) ^ y) + (- y));
+}
+int mba_240(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- y))) & (~ (y & (~ y)))));
+}
+int mba_241(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ y) + (- (y | (~ y)))));
+}
+int mba_242(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ x) + (x + (- (~ y))))));
+}
+int mba_243(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((- x) + (x + (~ x)))) + (- y));
+}
+int mba_244(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + (~ (x & (~ x)))) + y));
+}
+int mba_245(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (- ((- (~ x)) + (x + (- y))))));
+}
+int mba_246(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + y)) + (y + y)));
+}
+int mba_247(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (~ x))) ^ (x + (- y)));
+}
+int mba_248(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ (((- x) | y) & y)));
+}
+int mba_249(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- y))) | (~ (y | (~ y)))));
+}
+int mba_250(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ (x + (- y))) ^ y) ^ (~ y));
+}
+int mba_251(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y | (- (~ y))))));
+}
+int mba_252(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (x | (~ x))))) + (- y));
+}
+int mba_253(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- ((x ^ y) ^ y)) + y));
+}
+int mba_254(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + ((~ (x | y)) & y));
+}
+int mba_255(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- (~ x)) + (~ y)) & (x + (- y)));
+}
+int mba_256(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) & (~ (y & (~ y))));
+}
+int mba_257(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((x + (- y)) + y)) + (- y));
+}
+int mba_258(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (x & (~ (x | y)))) + y)));
+}
+int mba_259(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x + (~ x)) + (- y)))));
+}
+int mba_260(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + ((- ((- x) + (- x))) + (- y)));
+}
+int mba_261(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (y + y))) + (- (~ y)));
+}
+int mba_262(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x & (~ x)) | y)));
+}
+int mba_263(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ ((- x) + (~ y)))) + (x + x));
+}
+int mba_264(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- y))) & (y ^ (~ y))));
+}
+int mba_265(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + y) + (x | (~ x))));
+}
+int mba_266(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ ((~ x) | (- y)))) + (- y));
+}
+int mba_267(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (x + (x + (- y))));
+}
+int mba_268(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x | y) & y) & y)));
+}
+int mba_269(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (- y))) ^ (~ (y & (~ y))));
+}
+int mba_270(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x + (- y))) + y)) + y);
+}
+int mba_271(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (x + ((~ x) + (- y))))));
+}
+int mba_272(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- (~ x)) + (x ^ (~ x))) + (- y));
+}
+int mba_273(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (- (x & (~ x)))) + (- y));
+}
+int mba_274(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (~ (y & (~ y))))) + y));
+}
+int mba_275(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (~ ((~ (x & y)) & (~ y)))));
+}
+int mba_276(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (x ^ y))) + (- y));
+}
+int mba_277(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ ((~ (x | y)) | y))) + (- y));
+}
+int mba_278(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x & (~ x))) + (- (~ y)))));
+}
+int mba_279(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (y + (~ y)))) + (- y));
+}
+int mba_280(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + y) ^ (y ^ (~ y)));
+}
+int mba_281(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (y & (~ y)))) + (- y));
+}
+int mba_282(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) & (y | (~ y)));
+}
+int mba_283(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- ((~ x) + (- (x + (- y))))));
+}
+int mba_284(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (x | y))) ^ (x + (- y)));
+}
+int mba_285(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (- (x + (- (~ x)))))) + (- y));
+}
+int mba_286(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + y) & (x | (~ x))));
+}
+int mba_287(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (~ (x & (~ x)))))) + (- y));
+}
+int mba_288(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) ^ (x & (~ x)));
+}
+int mba_289(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ y) & (~ (y & (- y)))))));
+}
+int mba_290(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (((~ x) & y) | y)))));
+}
+int mba_291(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (x ^ (~ x)))) + y));
+}
+int mba_292(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) ^ (- (y & (~ y))));
+}
+int mba_293(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ ((~ x) | (~ y)))) + (- y));
+}
+int mba_294(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y & (y + (~ y)))))));
+}
+int mba_295(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (y + (~ y)))) + (- y));
+}
+int mba_296(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (~ x))) + (x + (- y)));
+}
+int mba_297(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x & (~ (x | y)))) + (x + (- y)));
+}
+int mba_298(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (((~ x) + y) + (- x))) + (- x));
+}
+int mba_299(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (x & (~ (x | y))))) + (- y));
+}
+int mba_300(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (x ^ y))) + (- y));
+}
+int mba_301(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((x ^ y) ^ y)) + (- y));
+}
+int mba_302(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) + (~ (y ^ (~ y)))));
+}
+int mba_303(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ x)) + (- (~ (x + (- y)))));
+}
+int mba_304(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ (x | (~ x))) | (~ y)))));
+}
+int mba_305(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (~ (x & (~ x)))) + y));
+}
+int mba_306(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (x | y)) | y)));
+}
+int mba_307(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (~ (y & (~ y)))))) + (- y));
+}
+int mba_308(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (~ x)) & (~ (x + (- y)))));
+}
+int mba_309(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (x + (- (~ (x + (- y))))));
+}
+int mba_310(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((~ (x & (~ x))) + (- y)));
+}
+int mba_311(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x | (~ (x & y)))) | (x + (- y)));
+}
+int mba_312(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ x)) + (x + (- y)));
+}
+int mba_313(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((- y) + (~ (- y)))) + (- y));
+}
+int mba_314(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x + x))) + (~ (x + y)));
+}
+int mba_315(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((- x) + (x | (~ x)))) + (- y));
+}
+int mba_316(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((~ x) & y) | y) + (- x)));
+}
+int mba_317(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- x) + ((x | (~ x)) + y)));
+}
+int mba_318(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (y ^ (y ^ (~ y))))));
+}
+int mba_319(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (~ (x | (~ x))))) + (- y));
+}
+int mba_320(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (~ x)) + (- (x + (- y)))));
+}
+int mba_321(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ y) | (~ (y | (~ y)))))));
+}
+int mba_322(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x ^ (x ^ (~ (x + (- y))))));
+}
+int mba_323(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + y)) & (x + (- y)));
+}
+int mba_324(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | y) & y)));
+}
+int mba_325(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (~ (x & (~ x))))) + y));
+}
+int mba_326(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (- (~ (y | (~ y)))))));
+}
+int mba_327(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x & y) & y) | y)));
+}
+int mba_328(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ (x ^ (x ^ y))));
+}
+int mba_329(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- x) + (~ (- x))) & y)));
+}
+int mba_330(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((- x) + (- y)) + y) + y));
+}
+int mba_331(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) + (~ (~ (y & (~ y))))));
+}
+int mba_332(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (y + (~ y)))) + (- y));
+}
+int mba_333(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((x & y) | y)));
+}
+int mba_334(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) & (~ (x & (~ x))));
+}
+int mba_335(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + y) | (~ (x | (~ x)))));
+}
+int mba_336(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (y | (~ y)))) + (- y));
+}
+int mba_337(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((~ (x | (~ x))) + (- (x + (- y)))));
+}
+int mba_338(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) | (~ (y | (~ y)))));
+}
+int mba_339(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + y) ^ (~ (x & (~ x))));
+}
+int mba_340(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (y ^ (~ (y & (~ y)))))));
+}
+int mba_341(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x | (x & y)))) + (~ y));
+}
+int mba_342(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (y ^ (~ y))) + (- y));
+}
+int mba_343(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (~ y))) + (- y));
+}
+int mba_344(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (y | (~ y)))) + (- y));
+}
+int mba_345(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ ((x ^ y) ^ y)) + y));
+}
+int mba_346(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | (x | y)) & y)));
+}
+int mba_347(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (~ (x | (~ x)))) + (- y)));
+}
+int mba_348(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ y)) + (y + (~ y)))));
+}
+int mba_349(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (x + (- ((- x) + y))));
+}
+int mba_350(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ ((~ (x & y)) | y)))) + (- y));
+}
+int mba_351(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (~ x))) + (- y));
+}
+int mba_352(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + (- (~ (x + x)))) + (- y));
+}
+int mba_353(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) | (~ (y | (~ y))));
+}
+int mba_354(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (x | y))) + (- y));
+}
+int mba_355(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (x | y)))) + (- y));
+}
+int mba_356(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((x | y) + (- y))) + (- y));
+}
+int mba_357(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((x & (~ x)) | y)));
+}
+int mba_358(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + (y + y))) + y);
+}
+int mba_359(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) ^ (~ (y | (~ y)))));
+}
+int mba_360(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) ^ (~ (x ^ (x + (- y)))));
+}
+int mba_361(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (y ^ (~ y)))) + (- y));
+}
+int mba_362(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (y ^ (y + (~ y))))));
+}
+int mba_363(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (x & (~ x)))) + (- y));
+}
+int mba_364(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ (x + ((~ x) + y))));
+}
+int mba_365(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((~ (x & y)) | y)) ^ y)));
+}
+int mba_366(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x ^ (x ^ y))));
+}
+int mba_367(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (~ (y ^ (~ y))))));
+}
+int mba_368(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ x)) ^ (~ (x + (- y))));
+}
+int mba_369(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (~ y)) + (- (~ y))) + (- y));
+}
+int mba_370(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((x ^ (~ x)) & y)));
+}
+int mba_371(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((x | y) | y)) + (- y));
+}
+int mba_372(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x | (~ x)) ^ (x + (- y))));
+}
+int mba_373(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- ((- x) + (x + x))) + y));
+}
+int mba_374(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x & (~ y))) & y)));
+}
+int mba_375(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x & (x | y))) + (- y));
+}
+int mba_376(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ y)) + (- (~ (x | (~ y)))));
+}
+int mba_377(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + (x + y)) + (- x)));
+}
+int mba_378(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (~ (x + (- ((- x) + y))))));
+}
+int mba_379(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((~ (x & (~ x))) & y)));
+}
+int mba_380(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) | ((x + (- y)) & y));
+}
+int mba_381(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((~ (x | y)) & y)) & y)));
+}
+int mba_382(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + y) ^ (x & (~ x))));
+}
+int mba_383(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((- x) + (~ (- x)))) + (- y));
+}
+int mba_384(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (~ x)) + ((- x) + (~ y))));
+}
+int mba_385(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ (x & y)) & (~ y)))));
+}
+int mba_386(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((x & (~ x)) + (- (x + (- y)))));
+}
+int mba_387(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (- (~ (y | (~ y)))))));
+}
+int mba_388(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x | (~ x)))) + (x + (- y)));
+}
+int mba_389(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((~ (x | (~ x))) ^ y)));
+}
+int mba_390(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- (x + x)) + (x + y)));
+}
+int mba_391(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + y));
+}
+int mba_392(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (((~ x) + y) + (- x))));
+}
+int mba_393(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (x + (- (~ ((~ x) + (- y))))));
+}
+int mba_394(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ x)) + (~ (x + (- y))))));
+}
+int mba_395(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (y ^ (~ y)))) + (- y));
+}
+int mba_396(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + ((x + x) + (- y)));
+}
+int mba_397(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (- (~ (y ^ (~ y)))));
+}
+int mba_398(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ y) + (- (~ (y + y))))));
+}
+int mba_399(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (- (~ (y | (~ y)))));
+}
+int mba_400(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x + (~ x)) & y)));
+}
+int mba_401(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((x + ((- x) + (- x))) + y));
+}
+int mba_402(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (y | (~ y)))) + y));
+}
+int mba_403(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (- (x + (- ((~ x) + y))))));
+}
+int mba_404(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((~ (x | (~ x))) | y)));
+}
+int mba_405(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (~ (x | y)))) + (- y));
+}
+int mba_406(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((~ (~ (x & y))) | y)));
+}
+int mba_407(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (x & y))) + (- y));
+}
+int mba_408(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + (~ (x | (~ x))))) + (- y));
+}
+int mba_409(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (~ (x & (~ x))))) + (- y));
+}
+int mba_410(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (- y)) + y) + (- y));
+}
+int mba_411(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) ^ (~ (y | (~ y))));
+}
+int mba_412(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- (x + (- (~ x)))) + (x + y)));
+}
+int mba_413(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) ^ (x ^ (x + (- y)))));
+}
+int mba_414(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (~ (y ^ (~ y))))));
+}
+int mba_415(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (x & (~ x))) | y)));
+}
+int mba_416(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ (x + (- y))) ^ (~ y)) ^ y);
+}
+int mba_417(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (x + (~ x)))) + (- y));
+}
+int mba_418(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x + (- y))) | (x + (- y)));
+}
+int mba_419(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- x) + (x | y)) | y)));
+}
+int mba_420(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ (x & y)))) ^ y)));
+}
+int mba_421(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ x)) | (x + (- y)));
+}
+int mba_422(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (~ (x ^ (~ x))));
+}
+int mba_423(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x | y)) + y) & y)));
+}
+int mba_424(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((~ (x | y)) & y)) + (- y));
+}
+int mba_425(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((x & (~ x)) | y)))));
+}
+int mba_426(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (- (x & (- x)))) + (- y));
+}
+int mba_427(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) & (x | (~ x)));
+}
+int mba_428(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ ((x ^ (~ x)) + y)));
+}
+int mba_429(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- (~ x)) & y) | y)));
+}
+int mba_430(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (x + (~ x)))) + (~ y));
+}
+int mba_431(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ ((~ (x & y)) | y))) + (- y));
+}
+int mba_432(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((x + (- y)) ^ y) ^ (~ y)));
+}
+int mba_433(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (~ (x ^ (~ (x + (- y))))));
+}
+int mba_434(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) | (x & (~ x))));
+}
+int mba_435(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x ^ (~ x))) + (x + (~ y)));
+}
+int mba_436(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + y));
+}
+int mba_437(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (y ^ (~ y))))) + (- y));
+}
+int mba_438(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + y) ^ (x + (~ x)));
+}
+int mba_439(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ ((~ y) + (- y))))) + y);
+}
+int mba_440(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x + (- (x + (x + (- y))))));
+}
+int mba_441(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ x)) ^ (~ (x + (- y))));
+}
+int mba_442(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- (~ x)) + (x + (~ y))) + (- x));
+}
+int mba_443(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (x ^ ((- (~ x)) + (~ y))));
+}
+int mba_444(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (x & (~ x))) ^ y)));
+}
+int mba_445(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (- (~ y))) + (~ y)) + (- y));
+}
+int mba_446(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (y | (~ y))) + (- y));
+}
+int mba_447(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (~ (- y)))) + (- y));
+}
+int mba_448(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) + y)) + (x ^ (~ x)));
+}
+int mba_449(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((- x) + (x + y))));
+}
+int mba_450(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ y) + (- (y ^ (~ y)))));
+}
+int mba_451(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y | (y + y)))));
+}
+int mba_452(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ x) & y) | y)));
+}
+int mba_453(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- x) + (- ((- x) + (- y))))));
+}
+int mba_454(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ x) + (- (~ (x + (- y))))));
+}
+int mba_455(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (- (x + (- (~ (x + (- y))))))));
+}
+int mba_456(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) | (~ (~ (y & (~ y)))));
+}
+int mba_457(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (y + ((- y) + (- y))));
+}
+int mba_458(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ y)) + (y | (~ y)))));
+}
+int mba_459(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (x + (- y)))) + (- y));
+}
+int mba_460(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (x & (~ (x | y)))) + (- y));
+}
+int mba_461(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (y ^ (~ y)))) + y));
+}
+int mba_462(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x | (~ (x & y)))) + (x + (- y)));
+}
+int mba_463(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x + (- y))) + (- y))) + (- y));
+}
+int mba_464(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (x | (~ x)))) ^ y)));
+}
+int mba_465(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (- x))) + (- y));
+}
+int mba_466(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (- (~ (x | (~ x)))));
+}
+int mba_467(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x ^ (x ^ (- x)))) + (- y));
+}
+int mba_468(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ ((~ (x | y)) & y))) + (- y));
+}
+int mba_469(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (- y))) ^ (y ^ (~ y)));
+}
+int mba_470(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((x ^ (~ x)) ^ y));
+}
+int mba_471(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((~ (x & (~ x))) & (x + (- y)))));
+}
+int mba_472(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x ^ (x ^ ((~ x) + y))));
+}
+int mba_473(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((- x) ^ y) ^ y) + y));
+}
+int mba_474(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ y) | (~ (y | (- y)))))));
+}
+int mba_475(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x & (~ x)))) + (x + (~ y)));
+}
+int mba_476(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (- (~ y))) + (- y)) + (~ y));
+}
+int mba_477(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (- y))) ^ (y | (~ y)));
+}
+int mba_478(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (- (~ ((~ x) + (~ (- y))))));
+}
+int mba_479(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) + (~ (y | (~ y)))));
+}
+int mba_480(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (x ^ (~ x)))) + (- y));
+}
+int mba_481(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + x)) + (x + y)));
+}
+int mba_482(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((((- x) + y) | y) & y)));
+}
+int mba_483(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + y) + (~ (x | (~ x)))));
+}
+int mba_484(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- ((- x) + (~ (x + (- y))))));
+}
+int mba_485(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ x) + ((- (~ x)) + y))));
+}
+int mba_486(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x | (~ x)) & (~ y)))));
+}
+int mba_487(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x + ((- x) + (- x)))) + (- y));
+}
+int mba_488(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (~ (x + x))) + y));
+}
+int mba_489(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + y) ^ (y | (~ y)));
+}
+int mba_490(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (- y)) ^ (~ y)) ^ (~ y));
+}
+int mba_491(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (y + (- (y + (- (~ y))))))));
+}
+int mba_492(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + (- x)) + (x + y)));
+}
+int mba_493(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | (~ x)) & y)));
+}
+int mba_494(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) | (~ (x | (~ x))));
+}
+int mba_495(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (x ^ (~ x)))) + (- y));
+}
+int mba_496(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) ^ (y & (~ y)));
+}
+int mba_497(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ (x & (~ x))) & (~ y)))));
+}
+int mba_498(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- (~ x)) + (~ y)) | (x + (- y)));
+}
+int mba_499(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x ^ (~ x)) ^ y))));
+}
+int mba_500(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ x))) ^ y)));
+}
+int mba_501(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ ((~ x) + (- x))) + (- x)) + (- y));
+}
+int mba_502(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + y)) | (x + (- y)));
+}
+int mba_503(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x ^ (x ^ ((- x) + y))));
+}
+int mba_504(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ ((- x) | y)) | (~ y)))));
+}
+int mba_505(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (((- x) ^ y) ^ y)) + (- y));
+}
+int mba_506(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x + (- y)) & (y | (~ y)))));
+}
+int mba_507(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ x))) + (~ (x + y)));
+}
+int mba_508(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) | (~ (y | (~ y)))));
+}
+int mba_509(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (~ (x & (~ y))))) + (- y));
+}
+int mba_510(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((~ (x & (~ x))) & y)));
+}
+int mba_511(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((((~ x) + y) ^ y) ^ y));
+}
+int mba_512(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (x | (~ x)))) + y));
+}
+int mba_513(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (- (~ x)))) + (- y));
+}
+int mba_514(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- ((x + (- y)) + (- y))) + (- y)));
+}
+int mba_515(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (x + (- (~ (x + (~ y))))));
+}
+int mba_516(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ y))) + (~ (y + y)));
+}
+int mba_517(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + (y + y))) + y);
+}
+int mba_518(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y ^ (- (~ (y | (~ y)))))));
+}
+int mba_519(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((x ^ (~ y)) ^ y)) + (- y));
+}
+int mba_520(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ (x & (~ x))) + (- y)))));
+}
+int mba_521(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (y ^ (~ y)))) + (- y));
+}
+int mba_522(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y | (y & (~ y)))))));
+}
+int mba_523(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x + (~ x)))) + (x + (- y)));
+}
+int mba_524(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (~ (~ (x | y)))))) + (- y));
+}
+int mba_525(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) & (y ^ (~ y))));
+}
+int mba_526(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x + (~ x))) + (- y));
+}
+int mba_527(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (~ (x ^ ((~ x) + y))));
+}
+int mba_528(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x + (~ x)) & (~ y)))));
+}
+int mba_529(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((- y) + (y ^ (~ y))))));
+}
+int mba_530(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((x | y) & y)))));
+}
+int mba_531(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (~ (x | (~ x)))))) + (- y));
+}
+int mba_532(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (x ^ (~ x))))) + (- y));
+}
+int mba_533(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | ((- x) + y))) + (- y));
+}
+int mba_534(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (y | (~ y))))) + (- y));
+}
+int mba_535(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ ((~ x) + y)) + y) + (- y));
+}
+int mba_536(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) & (x + (~ x)));
+}
+int mba_537(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (~ ((~ y) | (- y))))));
+}
+int mba_538(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (x ^ (~ x))) + (- y));
+}
+int mba_539(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (- (y + (- (y + y))))));
+}
+int mba_540(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- x) + (~ ((- x) + (x + (- y))))));
+}
+int mba_541(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (~ x))) ^ (x + (- y))));
+}
+int mba_542(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((- y) + (~ (y & (~ y)))))));
+}
+int mba_543(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((~ (x & y)) | y)) + (- y));
+}
+int mba_544(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x & (~ x)) | (x + (- y)))));
+}
+int mba_545(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x + y) & y) | y)));
+}
+int mba_546(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((x & y) & y)) + (- y));
+}
+int mba_547(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (~ (x & (~ x)))))) + (- y));
+}
+int mba_548(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (x + (~ x)))) + (- y));
+}
+int mba_549(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ ((~ x) + y)) ^ y) ^ y);
+}
+int mba_550(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((~ (x & (~ y))) & y)));
+}
+int mba_551(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (~ (x & (- x))))) + (- y));
+}
+int mba_552(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ ((- x) | y))) & y)));
+}
+int mba_553(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((- x) + (x + x))) + (- y));
+}
+int mba_554(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x + (- (x & y)))) + (- y));
+}
+int mba_555(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (x + y))) + (- y));
+}
+int mba_556(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ y)) + (y ^ (~ y)))));
+}
+int mba_557(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x & y) | y)));
+}
+int mba_558(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & y)) + (- y));
+}
+int mba_559(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ ((x + y) + (- y))) + y));
+}
+int mba_560(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((((~ x) + y) + y) + (- y)));
+}
+int mba_561(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (~ (x & (~ x))))) + (x + (- y)));
+}
+int mba_562(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (((- x) + y) + (- y))) + (- y));
+}
+int mba_563(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x ^ (~ (x | y)))) + (- y));
+}
+int mba_564(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((~ (x | (~ x))) | (x + (- y)))));
+}
+int mba_565(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x + (- y)) | y) & y)));
+}
+int mba_566(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (~ (y & (~ y)))) + y));
+}
+int mba_567(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ ((~ x) | y))) & y)));
+}
+int mba_568(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (~ ((~ y) & (- y))))));
+}
+int mba_569(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (~ (x & (~ x)))) + (- y));
+}
+int mba_570(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (x & (~ x))))) + (- y));
+}
+int mba_571(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (x | (~ x))) + (~ y)));
+}
+int mba_572(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (x + (- (~ ((- x) + (~ y))))));
+}
+int mba_573(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- (~ (- x))) + (~ (- y))));
+}
+int mba_574(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x | (~ x))) + (x + (- y)));
+}
+int mba_575(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (((~ x) ^ y) ^ y)) + (- y));
+}
+int mba_576(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x + ((- x) + (- (x + (- y))))));
+}
+int mba_577(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (x + x))) + (- y));
+}
+int mba_578(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (x + y))) + (- y));
+}
+int mba_579(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (~ (~ (x & (~ x)))));
+}
+int mba_580(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x + (- ((x + x) + (- y)))));
+}
+int mba_581(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((- x) + (~ (x & (~ x))))) + (- y));
+}
+int mba_582(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ (((- x) & y) | y)));
+}
+int mba_583(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (~ (y & (~ y))))) + (- y));
+}
+int mba_584(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ ((~ x) & (- x)))) + (- y));
+}
+int mba_585(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (x | (~ x))) | (- y)));
+}
+int mba_586(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- ((- x) + y)) + y) + (- y));
+}
+int mba_587(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x | (y & (~ y)))) + y));
+}
+int mba_588(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (~ (y | (~ y))))));
+}
+int mba_589(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- ((x + (- y)) + y)) + y));
+}
+int mba_590(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y ^ (~ (~ (y & (~ y)))))));
+}
+int mba_591(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x & (~ x)) | (~ y)))));
+}
+int mba_592(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (- (y & (~ y)))) + (- y));
+}
+int mba_593(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) | (y & (- y))));
+}
+int mba_594(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x + (~ x)) & y)));
+}
+int mba_595(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (~ y)) + (- y)) + (- (~ y)));
+}
+int mba_596(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- ((- x) + (- y))) + (- y)) + (- y));
+}
+int mba_597(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (y + (~ y))))) + (- y));
+}
+int mba_598(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x + (~ x)) + (- (~ y)))));
+}
+int mba_599(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (~ (~ (y | (~ y)))))));
+}
+int mba_600(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) | (~ (x | (~ x)))));
+}
+int mba_601(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) + y)) + (~ (x & (~ x))));
+}
+int mba_602(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (y + (~ (y + y))))));
+}
+int mba_603(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ x)) + (- (~ (x + (- y)))));
+}
+int mba_604(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) & (~ (~ (y | (~ y)))));
+}
+int mba_605(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ ((x + (- y)) ^ y)) ^ y));
+}
+int mba_606(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((~ (x | (~ y))) | y)));
+}
+int mba_607(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ (x | (~ x)))) & y)));
+}
+int mba_608(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x + ((- x) + y))));
+}
+int mba_609(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) | y)) + (~ ((~ x) & y)));
+}
+int mba_610(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + (~ (x | (~ x)))) + y));
+}
+int mba_611(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (~ (x | (~ (x & y)))));
+}
+int mba_612(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) ^ ((- x) ^ (x + (- y))));
+}
+int mba_613(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) + (- x))) + (~ (x + y)));
+}
+int mba_614(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y ^ (- (y & (~ y))))));
+}
+int mba_615(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + (x | (~ x))) + y));
+}
+int mba_616(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (~ (y & (~ y)))) + (- y));
+}
+int mba_617(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- (x | (x & y))) + y));
+}
+int mba_618(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (- x))) + (- y));
+}
+int mba_619(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (y & (~ y))) + (- y));
+}
+int mba_620(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y & (y | (- y)))))));
+}
+int mba_621(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- x) + (x + y))));
+}
+int mba_622(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (~ (y & (~ y))))) + (- y));
+}
+int mba_623(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x ^ y)) ^ y)) + (- y));
+}
+int mba_624(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (- y)) ^ y) ^ y);
+}
+int mba_625(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ ((~ y) + (y + y))));
+}
+int mba_626(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (y & (y + y)))));
+}
+int mba_627(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) | (~ (x | y))) + y));
+}
+int mba_628(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ (y + (y ^ (~ y)))));
+}
+int mba_629(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((~ (x | y)) | (~ y)));
+}
+int mba_630(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + (- x))) + (- (x + y)));
+}
+int mba_631(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) & y)) + (x & (~ y)));
+}
+int mba_632(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((~ (x | (~ y))) | y)));
+}
+int mba_633(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (~ (x + (~ ((x & y) | y)))));
+}
+int mba_634(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x | y)) & y) + y)));
+}
+int mba_635(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (~ (y & (~ y))))) + (- y));
+}
+int mba_636(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x & y) | y)));
+}
+int mba_637(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ ((~ (x | y)) & y)) + (- y));
+}
+int mba_638(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x + (- (x + x)))) + (- y));
+}
+int mba_639(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x | (~ x))) | (x + (- y)));
+}
+int mba_640(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (y + y))) + (- y));
+}
+int mba_641(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (x & y))) & (x + (- y)));
+}
+int mba_642(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x + (~ (x | y)))) + (- y));
+}
+int mba_643(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | y)) + (- y));
+}
+int mba_644(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ x) + (- ((~ x) + y))));
+}
+int mba_645(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (~ x)) & y)));
+}
+int mba_646(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ (y + (y + (~ y)))));
+}
+int mba_647(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ ((~ x) + y)) + (- x)));
+}
+int mba_648(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- x) + ((x + (~ x)) + y)));
+}
+int mba_649(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (x + (- y)))) + (- y));
+}
+int mba_650(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (- (x & (~ x)))) + (- y));
+}
+int mba_651(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (y + (- (~ y))))) + (- (~ y)));
+}
+int mba_652(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((x & (~ (x | y))) + (- y)));
+}
+int mba_653(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (x & (~ x)))) + (- y));
+}
+int mba_654(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x | (x & (~ x)))) + y));
+}
+int mba_655(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (x + (~ x)))) + y)));
+}
+int mba_656(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ x)) + ((~ x) + y))));
+}
+int mba_657(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (- (y & (~ y)))) + (- y));
+}
+int mba_658(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- x) ^ (x ^ (- x))) + (- y));
+}
+int mba_659(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((- x) + (x + y))));
+}
+int mba_660(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) + (~ (y + (~ y)))));
+}
+int mba_661(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (x + (- (x + (- (~ y))))));
+}
+int mba_662(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((~ (x | (~ x))) | y)))));
+}
+int mba_663(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (x ^ (~ x))) + (~ y)));
+}
+int mba_664(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x ^ y) | y) & y)));
+}
+int mba_665(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (- (~ (~ (y & (~ y))))))));
+}
+int mba_666(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((~ (x & y)) | y)) | y)));
+}
+int mba_667(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ ((~ x) ^ ((~ x) + y)));
+}
+int mba_668(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((x + (~ x)) + (- y)));
+}
+int mba_669(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (y & (- y)))));
+}
+int mba_670(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (~ (x & (~ x))))) + (- y));
+}
+int mba_671(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (~ x))) ^ (x + (- y)));
+}
+int mba_672(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x | (~ (y | (~ y))))) + y));
+}
+int mba_673(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (~ x)) & (~ (x + (- y)))));
+}
+int mba_674(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (~ (x | (~ x))));
+}
+int mba_675(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (- y)) ^ (~ (y & (~ y)))));
+}
+int mba_676(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + y) + (- y)) + (- y));
+}
+int mba_677(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((x & (~ x)) + (- y)));
+}
+int mba_678(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (~ ((~ x) & y))))) + (- y));
+}
+int mba_679(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (~ (x & (~ x)))) + (- y)));
+}
+int mba_680(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((~ (x & y)) | y)) + y)));
+}
+int mba_681(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + y) + (- (~ ((~ y) + (- y)))));
+}
+int mba_682(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | (~ x)) ^ (~ y))));
+}
+int mba_683(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + (x + (~ x))) + y));
+}
+int mba_684(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) & (~ (x + (- y)))));
+}
+int mba_685(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | (x ^ y)) & y)));
+}
+int mba_686(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x + ((- x) + y)) | y)));
+}
+int mba_687(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (x | (~ x)))) | y)));
+}
+int mba_688(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((((~ x) ^ y) ^ (~ y)) + (- y));
+}
+int mba_689(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- (x + (- (y + y)))) + (- y)));
+}
+int mba_690(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((x + (- y)) ^ (- y)) ^ (- y));
+}
+int mba_691(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (~ (x | (- x))))) + (- y));
+}
+int mba_692(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (- (y | (- y))))));
+}
+int mba_693(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (x & (~ x)))) + (- y));
+}
+int mba_694(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((~ x) + (- (~ y))));
+}
+int mba_695(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- ((~ x) + ((- x) + y))));
+}
+int mba_696(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ (x + (- (x + (- y))))));
+}
+int mba_697(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x & y)) & y) | y)));
+}
+int mba_698(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- (~ (x + (x + (- y))))));
+}
+int mba_699(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ y) + (- (~ (y & (~ y))))));
+}
+int mba_700(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (~ x)) ^ (x + (- y))));
+}
+int mba_701(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x + ((- x) + ((- x) + y))));
+}
+int mba_702(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (x | (~ x))) + y));
+}
+int mba_703(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((~ (x & (~ x))) & y)))));
+}
+int mba_704(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (x + ((- x) + y))));
+}
+int mba_705(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (x | y))) + (- y));
+}
+int mba_706(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (~ (x & y)))) + (- y));
+}
+int mba_707(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ ((~ (x & y)) | y)) + (- y)));
+}
+int mba_708(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (~ ((- x) + (~ (x + (- y))))));
+}
+int mba_709(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (~ x)))) & (x + (- y)));
+}
+int mba_710(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x + (- (x + (- y)))) | y)));
+}
+int mba_711(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x + (- y))) ^ y)) ^ y);
+}
+int mba_712(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (- (~ (y ^ (~ y)))))));
+}
+int mba_713(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- y) + (- ((- y) + (- y))))));
+}
+int mba_714(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((x + (~ x)) ^ y));
+}
+int mba_715(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (- (~ ((~ (- (~ x))) + y))));
+}
+int mba_716(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (~ ((~ (x & y)) | y)));
+}
+int mba_717(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- x) + (- ((- x) + (- x)))) + (- y));
+}
+int mba_718(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((~ (x | (x & y))) + (- (~ y))));
+}
+int mba_719(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x | (x & y))) + y));
+}
+int mba_720(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (y + (~ y))) + (- y));
+}
+int mba_721(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (y + (~ y)))) + (- y));
+}
+int mba_722(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + ((- x) + (x + y))));
+}
+int mba_723(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ ((~ x) | y)) | (~ y)))));
+}
+int mba_724(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + y)) + (x & (~ (x | y))));
+}
+int mba_725(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ y) ^ (y | (~ y)))));
+}
+int mba_726(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ y));
+}
+int mba_727(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((x ^ (~ x)) + (- y)));
+}
+int mba_728(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x & (~ x)) | y)));
+}
+int mba_729(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + (x & (~ x))) + y));
+}
+int mba_730(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (x + (~ x))) + (- y));
+}
+int mba_731(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ (x ^ (~ y))) ^ y) + (- y));
+}
+int mba_732(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ x) + (- ((~ x) + (- y))))));
+}
+int mba_733(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x + ((~ x) + (- (~ y))))));
+}
+int mba_734(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (x ^ (~ (x ^ y))))));
+}
+int mba_735(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x ^ y) & y) | y)));
+}
+int mba_736(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) + (y & (~ y))));
+}
+int mba_737(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + (x ^ (~ x))) + y));
+}
+int mba_738(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ ((~ x) ^ (~ (x + (- y)))));
+}
+int mba_739(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (x + (~ x))) + (~ y)));
+}
+int mba_740(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (~ (~ ((x | y) & y)))));
+}
+int mba_741(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((- ((- x) + y)) + y)) + (- y));
+}
+int mba_742(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + ((- x) + (~ (x + (- y))))));
+}
+int mba_743(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((~ (~ (x | y))) & y)))));
+}
+int mba_744(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x + (- y)) & (~ (y & (~ y))))));
+}
+int mba_745(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (x ^ (x ^ y))));
+}
+int mba_746(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (~ (x & (- x))))) + (- y));
+}
+int mba_747(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + ((~ y) + (- y))) + (- (~ y)));
+}
+int mba_748(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (- (((- x) + (- x)) + y)));
+}
+int mba_749(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (- (y & (~ y))))));
+}
+int mba_750(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x ^ (~ x))) + y)));
+}
+int mba_751(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (x & (- y))))) + (- y));
+}
+int mba_752(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((x + y) + (- y))) + (- y));
+}
+int mba_753(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((((~ x) + y) ^ (~ y)) ^ y);
+}
+int mba_754(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((x + (- y)) ^ (~ y))) ^ y);
+}
+int mba_755(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (x ^ (~ x)))) + (- y));
+}
+int mba_756(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + (- (x + (- (x + y))))));
+}
+int mba_757(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (y & (- (~ y))))));
+}
+int mba_758(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x ^ (~ x)) & y)));
+}
+int mba_759(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (~ y)) + (~ (y + y))));
+}
+int mba_760(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & y)) + (- (~ (x & (~ y)))));
+}
+int mba_761(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- ((- x) + y)) + (- y)) + y);
+}
+int mba_762(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- (~ x)) + (x | (~ x))) + (- y));
+}
+int mba_763(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (x | (- x)))) + y));
+}
+int mba_764(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + y) + (~ (x & (~ x)))));
+}
+int mba_765(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (((- x) | y) & y)))));
+}
+int mba_766(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- (x + (- y))) + y) + (- y)));
+}
+int mba_767(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) ^ (~ (y ^ (~ y))));
+}
+int mba_768(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y ^ (~ (y | (~ y))))));
+}
+int mba_769(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) ^ (x | (~ x))) + (- y));
+}
+int mba_770(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (~ (- ((- (~ (- x))) + y))));
+}
+int mba_771(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (~ (x & (~ x))))) + y)));
+}
+int mba_772(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + ((- (~ x)) + (x + (- y))));
+}
+int mba_773(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- (((~ x) + (- x)) + y)));
+}
+int mba_774(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (- (x | (- x)))) + (- y));
+}
+int mba_775(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (x ^ ((~ x) ^ y)));
+}
+int mba_776(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (~ (x | (~ y))))) + (- y));
+}
+int mba_777(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) & (~ (y & (~ y)))));
+}
+int mba_778(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ y) | (y & (~ y))))));
+}
+int mba_779(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((- x) + (x ^ (~ x)))) + (- y));
+}
+int mba_780(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x & (~ (x | y))) + y)));
+}
+int mba_781(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (y ^ (~ y)))) + (~ y));
+}
+int mba_782(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) & (y ^ (~ y)));
+}
+int mba_783(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x | (x & y))) + (- y));
+}
+int mba_784(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (~ ((~ (- x)) + (- y))));
+}
+int mba_785(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ x) ^ (x ^ (~ y)))));
+}
+int mba_786(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (y + (~ y))))) + (- y));
+}
+int mba_787(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (x + (- ((- (~ x)) + y))));
+}
+int mba_788(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (x + x))) + (- y));
+}
+int mba_789(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- (x & (~ x))) + (- y)));
+}
+int mba_790(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x | (~ (x & y)))) ^ (x + (- y)));
+}
+int mba_791(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ y) & (~ (y & (~ y)))))));
+}
+int mba_792(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (~ (x | (- x))))) + (- y));
+}
+int mba_793(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x & (~ x))) & y)));
+}
+int mba_794(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (- (x + (- (x + y))))));
+}
+int mba_795(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + ((- y) + (y + y))));
+}
+int mba_796(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((~ x) + (x + (- y))));
+}
+int mba_797(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (x + (~ x))))) + (- y));
+}
+int mba_798(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) | y)) + (x | (~ y)));
+}
+int mba_799(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- (~ x)) + y)) + (x + (- (~ x))));
+}
+int mba_800(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x | (~ x)) + (- (x + (- y)))));
+}
+int mba_801(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + ((- (x + (- (~ x)))) + y)));
+}
+int mba_802(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (~ (~ (y & (~ y)))));
+}
+int mba_803(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x & (~ ((~ x) & y)))) + y));
+}
+int mba_804(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (x + (~ x))) + y));
+}
+int mba_805(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (- y))) ^ (y + (~ y)));
+}
+int mba_806(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((x + (~ x)) & y)));
+}
+int mba_807(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | (~ (x & y))) & y)));
+}
+int mba_808(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- y))) & (y + (~ y))));
+}
+int mba_809(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ x)) ^ (~ (x + (- y))));
+}
+int mba_810(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x | (x & (- x))))) + (- y));
+}
+int mba_811(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((x | y) & y)));
+}
+int mba_812(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- (~ (x + (- ((- x) + y))))));
+}
+int mba_813(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x | y) & y) | y)));
+}
+int mba_814(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x & y)) | y)) | (x + (- y)));
+}
+int mba_815(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- y) + (y + y))));
+}
+int mba_816(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ y)) + (- (~ (x & (~ y)))));
+}
+int mba_817(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (y | (~ y)))) + (- y));
+}
+int mba_818(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (x ^ (~ x)))) + y)));
+}
+int mba_819(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ (x | y))) & y)));
+}
+int mba_820(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ x))) + y)));
+}
+int mba_821(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (((- x) + (- y)) + y)) + (- y));
+}
+int mba_822(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (x ^ y)) | y)));
+}
+int mba_823(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) ^ (x ^ ((~ x) + y)));
+}
+int mba_824(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((x | (~ y)) & (~ y)))));
+}
+int mba_825(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (x ^ (x ^ (~ y))));
+}
+int mba_826(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + ((x + (- (~ x))) + (~ y)));
+}
+int mba_827(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- x) + ((~ (x & (~ x))) + y)));
+}
+int mba_828(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- ((~ (x | y)) & y))) + (- y));
+}
+int mba_829(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (- (~ (~ (y & (~ y))))));
+}
+int mba_830(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & ((- ((- x) + y)) + y)) + (- y));
+}
+int mba_831(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + (- (x + (- (~ x))))) + y));
+}
+int mba_832(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (- (((~ x) + y) + (- x))));
+}
+int mba_833(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((x + (- (x + x))) + y));
+}
+int mba_834(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x + (- (x + (- y)))) & y)));
+}
+int mba_835(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x & (~ x)) ^ y)));
+}
+int mba_836(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (~ (x | (- y))))) + (- y));
+}
+int mba_837(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x & (~ (x | y)))) & (x + (- y)));
+}
+int mba_838(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (y ^ (~ y)))) + (- y));
+}
+int mba_839(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) | (y & (~ y)));
+}
+int mba_840(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (x + (- (x + (- ((- x) + y))))));
+}
+int mba_841(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (y & (~ (- y))))));
+}
+int mba_842(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x | y) & y)));
+}
+int mba_843(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x + ((~ x) + (- x))) + y));
+}
+int mba_844(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (~ (- x)))) + (- y));
+}
+int mba_845(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y | (~ (~ (y & (- y)))))));
+}
+int mba_846(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (y & (~ y)));
+}
+int mba_847(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- x) + (- y)) + (x + x));
+}
+int mba_848(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ x)) & (x + (- y)));
+}
+int mba_849(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) | (~ (y ^ (~ y))));
+}
+int mba_850(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x + y) | y) & y)));
+}
+int mba_851(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (x + (- ((~ x) + (- (~ y))))));
+}
+int mba_852(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y + (- (y & (~ y))))));
+}
+int mba_853(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- y) & (~ (y & (~ y)))));
+}
+int mba_854(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x ^ (~ x))) + (x + (- y)));
+}
+int mba_855(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (~ x)) ^ (~ y))));
+}
+int mba_856(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (~ x)) + (- (x + (- y)))));
+}
+int mba_857(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ (x + (- y))) ^ y) ^ y));
+}
+int mba_858(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + (x + (- (~ x)))) + (- y));
+}
+int mba_859(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x + (~ x))) + y)));
+}
+int mba_860(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (~ x)))) + (x + (- y)));
+}
+int mba_861(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (x | (~ (x & y))))) + (- y));
+}
+int mba_862(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ ((~ x) + (x + y))));
+}
+int mba_863(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ (((~ x) | y) & y)));
+}
+int mba_864(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | y)) + (- (~ (x | (~ y)))));
+}
+int mba_865(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((~ x) + (- (~ ((x | y) & y)))));
+}
+int mba_866(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ y) ^ (y + (~ y)))));
+}
+int mba_867(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((- x) + y) + (x ^ (~ x))));
+}
+int mba_868(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y | (- y)))));
+}
+int mba_869(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | ((x | y) ^ y)) + (- y));
+}
+int mba_870(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + ((x & (~ x)) + y)));
+}
+int mba_871(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((- x) + (x + (- y))));
+}
+int mba_872(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (x | (~ x)))) + (~ y));
+}
+int mba_873(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + ((~ (x & (~ x))) ^ y));
+}
+int mba_874(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (- (y & (- y))))));
+}
+int mba_875(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y ^ (~ (y + (~ y))))));
+}
+int mba_876(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ (x + (~ x)))) + (- y));
+}
+int mba_877(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- (x + (- y))) + (- y))) + (- y));
+}
+int mba_878(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((~ (x & (~ y))) & y)))));
+}
+int mba_879(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (x & (~ x))) + (- y));
+}
+int mba_880(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ (x | y)) & y) | (x + (- y)));
+}
+int mba_881(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (x + (- (x + y))));
+}
+int mba_882(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (~ ((~ (x | y)) | (~ y)))));
+}
+int mba_883(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x & y) | y) & y)));
+}
+int mba_884(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (~ ((x | (~ x)) & (x + (- y)))));
+}
+int mba_885(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ y) ^ (y ^ (~ y)))));
+}
+int mba_886(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- x) + (~ ((- x) + (~ y))))));
+}
+int mba_887(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x ^ (~ (x ^ (~ y))))));
+}
+int mba_888(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (x | (- y))) + (- y));
+}
+int mba_889(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x ^ (x ^ (x + (- y))));
+}
+int mba_890(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ ((~ (x & y)) | y))) + (- y));
+}
+int mba_891(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & ((- y) + (y + y)))));
+}
+int mba_892(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (~ x)))) ^ (x + (- y)));
+}
+int mba_893(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (- (~ (x | (~ x))))) + (- y));
+}
+int mba_894(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (x | (~ x)))) + (- y));
+}
+int mba_895(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (x | y))) + (x + (- y)));
+}
+int mba_896(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((- x) + (~ y)) + (x + (- (~ x))));
+}
+int mba_897(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + (- x))) + ((- x) + (- y)));
+}
+int mba_898(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + (y + y)) + (- y)));
+}
+int mba_899(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ ((- x) & y)) & (~ y)))));
+}
+int mba_900(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ (x | (~ (x & y))))) + (- y));
+}
+int mba_901(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x ^ (~ x)))) + (x + (- y)));
+}
+int mba_902(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((x & (~ x)) | (- y)));
+}
+int mba_903(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (~ (x | y)))) + (- y));
+}
+int mba_904(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & (~ (x & y)))) + (- y));
+}
+int mba_905(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (x & (~ x))) ^ (x + (- y)));
+}
+int mba_906(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ (x & y)) | y)) ^ (x + (- y)));
+}
+int mba_907(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((((- x) + y) & y) | y)));
+}
+int mba_908(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((- x) + (- y))) + (- (y + y)));
+}
+int mba_909(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x | y)) & y) | y)));
+}
+int mba_910(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (- (~ x))) + (- (~ y))));
+}
+int mba_911(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((~ (x & (x | y))) + (- (~ y))));
+}
+int mba_912(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ ((~ (x & y)) | y))) + (- y));
+}
+int mba_913(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) + (x + (- ((~ x) + y))));
+}
+int mba_914(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (y ^ (y | (~ y))))));
+}
+int mba_915(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- x) + (x + y)) | y)));
+}
+int mba_916(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((x ^ (y | (~ y))) + y));
+}
+int mba_917(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ (x + (- (y + y)))) + (- y)));
+}
+int mba_918(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + (- y)) + (y + y)));
+}
+int mba_919(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y | (~ y)))));
+}
+int mba_920(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (x ^ (~ x))))) + (- y));
+}
+int mba_921(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x ^ (~ x)) & (x + (- y)));
+}
+int mba_922(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- x) + (~ ((~ (x + x)) + y)));
+}
+int mba_923(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + (- y))) + (- (y + y)));
+}
+int mba_924(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (x ^ (x ^ (- y))));
+}
+int mba_925(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ ((~ x) & (~ y)))) + (- y));
+}
+int mba_926(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (x + ((~ x) + (- y))));
+}
+int mba_927(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x ^ (x & y))) + (- y));
+}
+int mba_928(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (x & (~ x))) & (- y)));
+}
+int mba_929(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x | (~ x)) + (- (~ y)))));
+}
+int mba_930(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((- x) + y) + (- y)) + y));
+}
+int mba_931(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x | (~ x)))) ^ (x + (- y)));
+}
+int mba_932(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (~ ((~ (x & (~ x))) + y)));
+}
+int mba_933(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x + (~ x))) | (x + (- y)));
+}
+int mba_934(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- x) + (((- x) | y) & y)));
+}
+int mba_935(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (x | (~ x)))) + y)));
+}
+int mba_936(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + (((~ x) + (- x)) + y)));
+}
+int mba_937(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((- y) + (y + (~ y))))));
+}
+int mba_938(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ (y & (~ y))))) + (~ y));
+}
+int mba_939(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (~ x)) + (- (~ y)))));
+}
+int mba_940(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ ((x ^ (~ x)) & y)))));
+}
+int mba_941(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((~ (x & y)) | y) & y)));
+}
+int mba_942(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (x & (~ x))) ^ (~ (x + (- y))));
+}
+int mba_943(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (x | y))) | (x + (- y)));
+}
+int mba_944(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- ((~ (x | y)) & y)) + y)));
+}
+int mba_945(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((- x) + (~ ((- x) + y))))));
+}
+int mba_946(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((x ^ (x ^ y)) & y)));
+}
+int mba_947(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- x) + y) & (x + (~ x))));
+}
+int mba_948(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (~ (x | y)))) + (- y));
+}
+int mba_949(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((- (x & (x | y))) + y));
+}
+int mba_950(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (~ (x & y)))) + (- y));
+}
+int mba_951(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x + ((~ (x + x)) + y)));
+}
+int mba_952(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- (x & y)) + y) | y)));
+}
+int mba_953(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((~ x) + (- (~ ((x & y) | y)))));
+}
+int mba_954(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x + (~ x))) | y)));
+}
+int mba_955(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (((~ x) + y) | (~ (x + (- y)))));
+}
+int mba_956(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- (((- (x + (- y))) ^ y) ^ y));
+}
+int mba_957(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (((~ x) + y) ^ (y + (~ y)));
+}
+int mba_958(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ ((~ x) & y))) | y)));
+}
+int mba_959(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (((- x) + y) + y)) + y);
+}
+int mba_960(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x & (~ (x & y)))) & y)));
+}
+int mba_961(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((- x) + (~ (- y))));
+}
+int mba_962(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (y | (~ y)))) + (~ y));
+}
+int mba_963(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (~ x)) & (x + (- y)));
+}
+int mba_964(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((x & y) | y) | y)));
+}
+int mba_965(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((- (~ (x | (~ (x & y))))) + y)));
+}
+int mba_966(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) + (- (x + (- y))))) + (- x));
+}
+int mba_967(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (y & (y | (~ (- y))))));
+}
+int mba_968(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ ((- x) & y))) | y)));
+}
+int mba_969(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ x)) ^ (x + (- y)));
+}
+int mba_970(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ ((~ y) & (y | (~ y))))));
+}
+int mba_971(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (((- x) & y) | y)));
+}
+int mba_972(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ (x & (~ (x | y))))) + (- y));
+}
+int mba_973(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ x)) + (~ ((~ (~ (x & y))) | y)));
+}
+int mba_974(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- (~ (x | (~ (x & y))))) + (x + (- y)));
+}
+int mba_975(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (- (y & (~ y))));
+}
+int mba_976(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + x) + (- (x + y)));
+}
+int mba_977(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (~ (x & y))) | y)));
+}
+int mba_978(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (~ (~ (x & y)))) + (- y));
+}
+int mba_979(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & ((- x) + y))) + (- y));
+}
+int mba_980(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x & (~ (x | y)))) & y)));
+}
+int mba_981(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) | (~ (y | (~ y))))) + (- y));
+}
+int mba_982(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ (x ^ ((~ x) ^ (x + (- y)))));
+}
+int mba_983(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (x ^ (~ x)))) + (~ y));
+}
+int mba_984(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (~ ((~ x) + (x + ((- x) + y))));
+}
+int mba_985(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (~ (x & (~ (y & (~ y)))))) + (- y));
+}
+int mba_986(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ (((~ x) + y) ^ y)) ^ y);
+}
+int mba_987(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y | (~ (y | (~ y))))))));
+}
+int mba_988(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ ((~ x) | (~ y))) | y)));
+}
+int mba_989(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + ((~ (x + (~ x))) + (- y)));
+}
+int mba_990(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x & (~ ((~ x) & y))) + (- y));
+}
+int mba_991(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ x) ^ (x ^ (~ (x + (- y)))));
+}
+int mba_992(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- (~ y))) + ((~ y) + (- y)));
+}
+int mba_993(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- ((~ (x | (~ x))) | y)));
+}
+int mba_994(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (~ (~ (y & (y | (~ y)))))));
+}
+int mba_995(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((~ ((~ x) & ((~ x) | y))) + (- y));
+}
+int mba_996(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (- ((((~ x) | y) & y) + (- x)));
+}
+int mba_997(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((- ((~ x) + (- x))) + ((~ x) + (- y)));
+}
+int mba_998(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return (x + (- (x + (- (x + (- y))))));
+}
+int mba_999(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x | (x & (- (~ y)))) + (- y));
+}
+int mba_1000(int x, int y, int z, int a, int b, int c, int d, int e, int f) {
+return ((x + (- y)) + (~ (y | (~ y))));
+} 
+
+int main (int argc, char *argv[]) { 
+        char *xc, *yc, *zc;
+        char *ac, *bc, *cc, *dc, *ec, *fc;  
+        int x = strtol(argv[1], &xc, 16);
+        int y = strtol(argv[2], &yc, 16);
+        int z = strtol(argv[3], &zc, 16);
+        int a = strtol(argv[4], &ac, 16);
+        int b = strtol(argv[5], &bc, 16);
+        int c = strtol(argv[6], &cc, 16);
+        int d = strtol(argv[7], &dc, 16);
+        int e = strtol(argv[8], &ec, 16);
+        int f = strtol(argv[9], &fc, 16);
+        int sum = 0; 
+ sum = mba_1(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_2(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_3(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_4(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_5(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_6(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_7(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_8(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_9(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_10(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_11(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_12(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_13(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_14(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_15(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_16(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_17(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_18(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_19(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_20(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_21(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_22(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_23(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_24(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_25(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_26(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_27(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_28(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_29(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_30(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_31(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_32(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_33(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_34(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_35(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_36(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_37(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_38(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_39(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_40(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_41(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_42(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_43(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_44(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_45(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_46(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_47(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_48(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_49(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_50(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_51(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_52(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_53(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_54(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_55(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_56(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_57(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_58(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_59(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_60(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_61(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_62(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_63(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_64(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_65(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_66(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_67(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_68(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_69(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_70(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_71(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_72(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_73(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_74(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_75(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_76(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_77(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_78(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_79(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_80(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_81(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_82(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_83(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_84(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_85(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_86(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_87(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_88(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_89(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_90(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_91(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_92(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_93(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_94(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_95(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_96(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_97(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_98(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_99(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_100(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_101(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_102(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_103(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_104(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_105(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_106(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_107(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_108(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_109(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_110(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_111(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_112(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_113(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_114(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_115(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_116(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_117(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_118(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_119(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_120(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_121(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_122(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_123(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_124(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_125(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_126(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_127(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_128(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_129(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_130(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_131(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_132(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_133(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_134(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_135(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_136(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_137(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_138(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_139(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_140(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_141(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_142(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_143(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_144(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_145(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_146(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_147(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_148(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_149(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_150(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_151(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_152(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_153(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_154(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_155(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_156(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_157(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_158(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_159(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_160(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_161(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_162(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_163(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_164(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_165(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_166(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_167(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_168(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_169(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_170(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_171(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_172(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_173(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_174(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_175(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_176(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_177(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_178(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_179(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_180(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_181(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_182(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_183(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_184(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_185(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_186(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_187(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_188(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_189(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_190(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_191(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_192(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_193(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_194(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_195(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_196(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_197(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_198(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_199(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_200(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_201(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_202(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_203(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_204(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_205(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_206(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_207(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_208(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_209(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_210(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_211(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_212(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_213(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_214(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_215(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_216(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_217(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_218(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_219(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_220(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_221(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_222(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_223(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_224(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_225(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_226(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_227(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_228(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_229(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_230(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_231(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_232(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_233(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_234(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_235(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_236(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_237(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_238(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_239(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_240(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_241(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_242(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_243(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_244(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_245(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_246(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_247(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_248(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_249(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_250(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_251(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_252(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_253(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_254(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_255(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_256(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_257(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_258(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_259(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_260(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_261(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_262(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_263(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_264(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_265(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_266(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_267(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_268(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_269(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_270(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_271(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_272(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_273(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_274(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_275(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_276(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_277(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_278(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_279(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_280(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_281(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_282(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_283(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_284(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_285(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_286(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_287(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_288(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_289(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_290(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_291(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_292(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_293(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_294(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_295(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_296(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_297(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_298(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_299(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_300(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_301(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_302(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_303(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_304(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_305(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_306(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_307(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_308(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_309(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_310(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_311(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_312(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_313(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_314(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_315(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_316(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_317(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_318(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_319(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_320(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_321(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_322(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_323(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_324(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_325(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_326(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_327(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_328(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_329(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_330(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_331(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_332(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_333(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_334(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_335(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_336(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_337(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_338(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_339(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_340(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_341(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_342(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_343(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_344(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_345(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_346(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_347(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_348(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_349(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_350(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_351(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_352(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_353(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_354(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_355(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_356(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_357(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_358(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_359(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_360(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_361(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_362(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_363(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_364(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_365(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_366(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_367(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_368(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_369(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_370(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_371(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_372(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_373(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_374(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_375(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_376(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_377(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_378(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_379(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_380(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_381(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_382(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_383(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_384(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_385(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_386(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_387(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_388(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_389(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_390(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_391(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_392(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_393(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_394(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_395(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_396(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_397(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_398(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_399(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_400(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_401(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_402(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_403(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_404(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_405(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_406(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_407(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_408(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_409(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_410(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_411(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_412(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_413(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_414(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_415(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_416(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_417(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_418(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_419(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_420(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_421(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_422(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_423(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_424(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_425(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_426(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_427(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_428(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_429(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_430(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_431(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_432(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_433(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_434(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_435(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_436(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_437(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_438(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_439(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_440(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_441(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_442(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_443(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_444(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_445(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_446(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_447(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_448(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_449(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_450(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_451(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_452(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_453(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_454(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_455(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_456(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_457(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_458(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_459(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_460(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_461(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_462(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_463(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_464(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_465(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_466(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_467(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_468(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_469(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_470(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_471(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_472(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_473(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_474(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_475(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_476(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_477(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_478(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_479(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_480(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_481(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_482(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_483(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_484(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_485(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_486(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_487(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_488(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_489(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_490(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_491(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_492(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_493(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_494(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_495(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_496(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_497(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_498(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_499(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_500(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_501(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_502(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_503(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_504(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_505(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_506(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_507(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_508(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_509(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_510(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_511(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_512(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_513(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_514(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_515(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_516(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_517(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_518(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_519(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_520(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_521(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_522(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_523(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_524(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_525(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_526(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_527(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_528(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_529(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_530(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_531(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_532(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_533(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_534(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_535(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_536(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_537(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_538(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_539(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_540(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_541(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_542(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_543(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_544(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_545(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_546(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_547(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_548(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_549(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_550(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_551(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_552(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_553(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_554(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_555(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_556(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_557(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_558(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_559(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_560(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_561(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_562(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_563(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_564(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_565(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_566(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_567(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_568(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_569(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_570(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_571(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_572(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_573(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_574(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_575(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_576(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_577(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_578(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_579(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_580(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_581(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_582(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_583(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_584(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_585(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_586(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_587(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_588(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_589(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_590(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_591(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_592(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_593(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_594(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_595(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_596(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_597(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_598(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_599(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_600(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_601(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_602(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_603(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_604(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_605(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_606(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_607(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_608(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_609(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_610(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_611(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_612(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_613(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_614(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_615(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_616(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_617(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_618(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_619(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_620(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_621(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_622(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_623(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_624(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_625(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_626(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_627(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_628(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_629(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_630(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_631(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_632(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_633(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_634(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_635(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_636(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_637(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_638(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_639(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_640(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_641(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_642(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_643(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_644(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_645(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_646(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_647(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_648(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_649(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_650(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_651(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_652(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_653(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_654(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_655(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_656(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_657(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_658(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_659(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_660(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_661(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_662(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_663(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_664(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_665(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_666(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_667(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_668(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_669(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_670(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_671(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_672(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_673(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_674(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_675(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_676(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_677(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_678(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_679(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_680(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_681(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_682(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_683(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_684(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_685(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_686(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_687(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_688(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_689(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_690(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_691(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_692(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_693(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_694(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_695(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_696(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_697(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_698(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_699(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_700(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_701(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_702(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_703(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_704(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_705(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_706(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_707(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_708(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_709(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_710(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_711(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_712(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_713(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_714(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_715(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_716(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_717(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_718(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_719(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_720(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_721(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_722(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_723(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_724(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_725(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_726(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_727(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_728(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_729(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_730(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_731(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_732(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_733(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_734(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_735(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_736(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_737(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_738(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_739(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_740(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_741(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_742(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_743(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_744(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_745(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_746(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_747(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_748(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_749(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_750(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_751(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_752(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_753(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_754(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_755(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_756(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_757(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_758(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_759(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_760(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_761(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_762(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_763(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_764(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_765(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_766(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_767(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_768(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_769(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_770(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_771(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_772(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_773(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_774(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_775(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_776(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_777(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_778(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_779(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_780(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_781(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_782(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_783(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_784(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_785(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_786(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_787(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_788(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_789(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_790(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_791(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_792(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_793(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_794(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_795(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_796(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_797(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_798(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_799(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_800(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_801(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_802(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_803(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_804(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_805(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_806(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_807(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_808(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_809(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_810(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_811(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_812(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_813(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_814(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_815(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_816(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_817(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_818(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_819(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_820(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_821(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_822(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_823(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_824(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_825(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_826(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_827(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_828(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_829(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_830(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_831(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_832(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_833(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_834(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_835(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_836(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_837(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_838(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_839(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_840(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_841(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_842(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_843(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_844(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_845(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_846(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_847(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_848(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_849(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_850(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_851(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_852(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_853(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_854(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_855(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_856(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_857(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_858(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_859(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_860(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_861(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_862(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_863(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_864(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_865(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_866(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_867(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_868(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_869(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_870(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_871(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_872(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_873(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_874(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_875(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_876(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_877(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_878(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_879(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_880(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_881(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_882(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_883(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_884(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_885(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_886(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_887(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_888(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_889(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_890(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_891(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_892(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_893(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_894(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_895(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_896(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_897(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_898(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_899(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_900(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_901(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_902(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_903(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_904(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_905(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_906(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_907(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_908(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_909(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_910(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_911(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_912(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_913(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_914(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_915(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_916(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_917(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_918(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_919(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_920(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_921(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_922(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_923(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_924(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_925(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_926(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_927(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_928(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_929(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_930(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_931(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_932(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_933(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_934(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_935(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_936(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_937(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_938(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_939(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_940(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_941(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_942(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_943(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_944(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_945(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_946(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_947(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_948(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_949(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_950(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_951(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_952(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_953(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_954(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_955(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_956(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_957(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_958(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_959(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_960(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_961(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_962(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_963(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_964(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_965(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_966(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_967(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_968(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_969(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_970(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_971(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_972(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_973(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_974(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_975(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_976(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_977(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_978(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_979(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_980(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_981(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_982(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_983(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_984(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_985(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_986(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_987(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_988(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_989(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_990(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_991(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_992(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_993(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_994(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_995(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_996(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_997(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_998(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_999(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+ sum = mba_1000(x, y, z, a, b, c, d, e, f);
+printf("\n%s%x\n", "%i", sum);
+
+ return 0;
+}
